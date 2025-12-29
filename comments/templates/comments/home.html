@@ -1,0 +1,180 @@
+{% extends 'base.html' %} {% block content %}
+<style>
+  .video-tile {
+    width: 100%;
+    height: 4cm;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    background: #fff;
+    color: rgb(244, 34, 34); /* red text for tile */
+    text-decoration: none;
+    transition: transform 160ms ease, box-shadow 160ms ease,
+      background-color 160ms ease;
+    box-sizing: border-box;
+  }
+  .video-grid {
+    display: block;
+  }
+  /* Ensure anchor tiles don't show underline and change background on hover */
+  a.video-tile {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: background-color 180ms ease, transform 160ms ease,
+      box-shadow 160ms ease;
+  }
+  a.video-tile:hover {
+    text-decoration: none;
+    background-color: #cfe7ca; /* light off-white to match clicked state */
+  }
+  .tile-content {
+    flex: 1 1 auto;
+    min-width: 0; /* allow flex children to shrink and avoid overflow */
+    padding-left: 12px;
+  }
+  .tile-stats {
+    margin-top: 6px;
+    color: #000; /* ensure stats text is black, not the red theme color */
+  }
+  .tile-title {
+    font-weight: bold;
+    margin-top: 6px;
+  }
+  .theme-white {
+    background: #e99191;
+    color: #000;
+    padding: 16px;
+  }
+  .theme-red {
+    background: #ffefef;
+    color: rgb(250, 21, 21);
+    padding: 16px;
+  }
+  .inline-form {
+    display: inline-block;
+    margin-right: 8px;
+  }
+  #themeSelect {
+    width: 160px;
+    display: inline-block;
+    margin-left: 8px;
+  }
+  /* animation triggered on click instead of hover to avoid scroll jank */
+  .video-tile.clicked {
+    text-decoration: none;
+    color: rgb(255, 14, 14) !important;
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+    background-color: #fffefc;
+    transition: transform 160ms ease, box-shadow 160ms ease,
+      background-color 160ms ease;
+  }
+  /* Promote tiles to their own layer to avoid iframe repaint/scrolling lag */
+  .video-tile {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  .video-tile .tile-title {
+    color: rgb(252, 17, 17);
+  }
+  /* Embedded video frame: fixed size and rounded edges */
+  .video-frame {
+    width: 3.5cm;
+    height: 2.5cm;
+    align-self: center;
+    flex: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+  }
+  /* Make iframe composite with its container so it moves smoothly with scroll */
+  .video-frame {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+  }
+  .video-frame iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  /* Scrollable tiles area that sits below the fixed navbar */
+  .tiles-scroll {
+    max-height: calc(100vh - 6cm);
+    overflow-y: auto;
+    overflow-x: hidden; /* prevent horizontal scrolling */
+    -webkit-overflow-scrolling: touch;
+    padding-right: 8px; /* avoid hiding content behind scrollbar */
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+</style>
+
+<div class="container">
+  <div class="d-flex justify-content-between align-items-center mb-3"></div>
+
+  <!-- Theme fixed to red; theme selector removed -->
+
+  <div class="tiles-scroll">
+    <div id="tilesContainer" class="video-grid theme-red">
+      {% for vid, link, stats in channel_videos_info %}
+      <a
+        href="{% url 'dashboard_video' vid %}"
+        class="d-flex video-tile"
+        role="button"
+      >
+        <div class="tile-content">
+          <div class="tile-title">Video {{ forloop.counter }} — {{ vid }}</div>
+          <div class="tile-stats">
+            <div>Total: <strong>{{ stats.total }}</strong></div>
+            <div>
+              Review: <strong>{{ stats.review }}</strong> &nbsp; Neutral:
+              <strong>{{ stats.neutral }}</strong> &nbsp; Deleted:
+              <strong>{{ stats.deleted }}</strong> &nbsp; Toxic:
+              <strong>{{ stats.toxic }}</strong>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="video-frame">
+          <iframe
+            title="Video {{ forloop.counter }}"
+            src="https://www.youtube.com/embed/{{ vid }}?rel=0&controls=0&mute=1&autoplay=1&loop=1&playlist={{ vid }}&modestbranding=1&playsinline=1"
+            width="100%"
+            height="100%"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+        </div> -->
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<!-- Theme is fixed to red; no JS required -->
+
+<script>
+  // Toggle 'clicked' visual effect on tiles to avoid hover-induced jank during scroll
+  (function () {
+    const tiles = document.querySelectorAll(".video-tile");
+    tiles.forEach((tile) => {
+      tile.addEventListener("click", function (e) {
+        // add class briefly for animation
+        tile.classList.add("clicked");
+        setTimeout(() => tile.classList.remove("clicked"), 400);
+      });
+    });
+  })();
+</script>
+
+{% endblock %}

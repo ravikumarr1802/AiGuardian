@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{% block title %}AiGuardian{% endblock %}</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background: #f9f9f9;
+      }
+      /* Moved styles from inline attributes into classes for accessibility and maintainability */
+      .top-navbar-fixed {
+        position: fixed;
+        top: 0.5cm;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 29cm;
+        height: 5cm;
+        background: #fff;
+        border: 2px solid #fa3131;
+        border-radius: 12px;
+        z-index: 1030;
+      }
+      .brand-logo-img {
+        vertical-align: middle;
+        margin-right: 8px;
+      }
+      .nav-btn {
+        font-size: 0.85rem;
+        padding: 6px 16px;
+        font-weight: bold;
+        min-width: 120px;
+      }
+      .nav-btn-home {
+        background-color: #17a2b8;
+        color: #fff;
+        border-color: #17a2b8;
+      }
+      .nav-btn-add {
+        background-color: #d32f2f;
+        color: #fff;
+        border-color: #d32f2f;
+      }
+      .nav-btn-admin {
+        background-color: #4caf50;
+        color: #fff;
+        border-color: #4caf50;
+      }
+      main.container.with-top-padding {
+        padding-top: calc(5cm + 1rem);
+      }
+    </style>
+    {% block head %}{% endblock %}
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg mb-3 top-navbar-fixed">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center text-danger" href="/">
+          <img
+            src="/media/youtube_logo.jpeg"
+            height="40"
+            class="brand-logo-img"
+            alt="YouTube Logo"
+          />
+          <div class="d-flex flex-column">
+            <strong class="mr-2">AiGuardian</strong>
+            <h3 class="text-dark">RK's Channel videos</h3>
+          </div>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="mainNavbar"
+        >
+          <div class="d-flex align-items-center">
+            <a href="/" class="btn mr-2 nav-btn nav-btn-home">Home</a>
+            <button class="btn mr-2 nav-btn nav-btn-add" id="navAddVideo">
+              Add Video
+            </button>
+            <a href="/admin/" class="btn mr-2 nav-btn nav-btn-admin">Admin</a>
+          </div>
+
+          <!-- Channel videos moved to brand subtitle -->
+        </div>
+      </div>
+    </nav>
+
+    <main class="container with-top-padding">
+      {% block content %}{% endblock %}
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Add Video modal -->
+    <div
+      class="modal fade"
+      id="addVideoModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="addVideoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="addVideoModalLabel">
+              Add Channel Video
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form id="addVideoForm">
+              <div class="form-group">
+                <label for="videoIdInput">Video ID</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="videoIdInput"
+                  name="video_id"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="videoLinkInput">Video Link (optional)</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="videoLinkInput"
+                  name="link"
+                />
+              </div>
+              <div class="form-group">
+                <label for="videoNameInput">Video Name (optional)</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="videoNameInput"
+                  name="name"
+                />
+              </div>
+            </form>
+            <div id="addVideoAlert" class="alert d-none" role="alert"></div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" id="addVideoSubmit" class="btn btn-danger">
+              Add Video
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Helper to get CSRF token from cookie (Django default)
+      function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== "") {
+          const cookies = document.cookie.split(";");
+          for (let i = 0; i < cookies.length; i++) {
+            const cookie = cookies[i].trim();
+            // Does this cookie string begin with the name we want?
+            if (cookie.substring(0, name.length + 1) === name + "=") {
+              cookieValue = decodeURIComponent(
+                cookie.substring(name.length + 1)
+              );
+              break;
+            }
+          }
+        }
+        return cookieValue;
+      }
+
+      (function () {
+        const navAdd = document.getElementById("navAddVideo");
+        const addModal = $("#addVideoModal");
+        const submitBtn = document.getElementById("addVideoSubmit");
+        const alertBox = document.getElementById("addVideoAlert");
+
+        navAdd &&
+          navAdd.addEventListener("click", function () {
+            addModal.modal("show");
+          });
+
+        submitBtn &&
+          submitBtn.addEventListener("click", function () {
+            const video_id = document
+              .getElementById("videoIdInput")
+              .value.trim();
+            const link = document.getElementById("videoLinkInput").value.trim();
+            const name = document.getElementById("videoNameInput").value.trim();
+            if (!video_id) {
+              alertBox.className = "alert alert-danger";
+              alertBox.textContent = "Video ID is required";
+              alertBox.classList.remove("d-none");
+              return;
+            }
+            const data = new URLSearchParams();
+            data.append("video_id", video_id);
+            data.append("link", link);
+            data.append("name", name);
+
+            fetch('{% url "add_video" %}', {
+              method: "POST",
+              headers: {
+                "X-CSRFToken": getCookie("csrftoken"),
+                "Content-Type": "application/x-www-form-urlencoded",
+              },
+              body: data.toString(),
+            })
+              .then((response) => {
+                // If response is not OK, attempt to read the text body (HTML or error message)
+                if (!response.ok) {
+                  return response.text().then((text) => {
+                    throw new Error(text || response.statusText);
+                  });
+                }
+                const ct = response.headers.get("content-type") || "";
+                if (ct.includes("application/json")) {
+                  return response.json();
+                }
+                // Non-JSON successful response (unexpected) — read text and surface it
+                return response.text().then((text) => {
+                  try {
+                    // Try parse JSON from text just in case
+                    return JSON.parse(text);
+                  } catch (e) {
+                    throw new Error(text || "Non-JSON response from server");
+                  }
+                });
+              })
+              .then((j) => {
+                if (j && j.success) {
+                  alertBox.className = "alert alert-success";
+                  alertBox.textContent = "Video added — reload to see tiles.";
+                  alertBox.classList.remove("d-none");
+                  setTimeout(() => location.reload(), 700);
+                } else {
+                  alertBox.className = "alert alert-danger";
+                  alertBox.textContent =
+                    (j && j.error) || "Failed to add video";
+                  alertBox.classList.remove("d-none");
+                }
+              })
+              .catch((err) => {
+                // Show raw error text (strip HTML tags if present)
+                let msg = "" + (err && err.message ? err.message : err);
+                // If it's an HTML page, try to strip tags to avoid dumping full HTML
+                msg = msg.replace(/<[^>]*>/g, "");
+                alertBox.className = "alert alert-danger";
+                alertBox.textContent =
+                  msg || "An error occurred while adding the video";
+                alertBox.classList.remove("d-none");
+              });
+          });
+      })();
+    </script>
+
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

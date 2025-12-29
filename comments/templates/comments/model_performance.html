@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Model Performance</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      .header-box {
+        background: #fff;
+        color: #17a2b8;
+        padding: 8px calc(4cm + 24px);
+        border-radius: 6px;
+        font-weight: bold;
+        border: 2px solid #17a2b8;
+        border-bottom: 4px solid #17a2b8;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-width: 340px;
+        margin: 32px auto 24px auto;
+      }
+      .header-title {
+        color: #17a2b8;
+        font-size: 1.5rem;
+      }
+      .metrics-section {
+        margin-bottom: 32px;
+      }
+      .chart-section {
+        margin-bottom: 32px;
+      }
+      .metric-tile {
+        background: #f7f7f7;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+        border: 1px solid #e0e0e0;
+        padding: 18px 24px;
+        margin-bottom: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="d-flex justify-content-between align-items-center mb-4"
+      style="padding: 20px 0 0 0"
+    >
+      <div
+        style="
+          background: #fff;
+          color: #17a2b8;
+          padding: 8px 212.976px;
+          border-radius: 6px;
+          font-weight: bold;
+          border: 2px solid #17a2b8;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-width: 340px;
+          margin: 0 auto;
+        "
+      >
+        <span class="h4 mb-0" style="color: #17a2b8; text-align: left"
+          >Model Performance</span
+        >
+        <a
+          href="{% url 'dashboard' %}"
+          class="btn btn-light"
+          style="font-weight: bold"
+          >Home</a
+        >
+      </div>
+    </div>
+    <div class="container">
+      <div class="metrics-section">
+        <h4>Metrics</h4>
+        <div id="metrics-tiles" class="row">
+          <div class="col-md-3 metric-tile">
+            <strong>Accuracy:</strong><br />{{
+            metrics.accuracy|default:"N/A"|floatformat:3 }}
+          </div>
+          <div class="col-md-3 metric-tile">
+            <strong>Precision:</strong><br />{{
+            metrics.precision|default:"N/A"|floatformat:3 }}
+          </div>
+          <div class="col-md-3 metric-tile">
+            <strong>Recall:</strong><br />{{
+            metrics.recall|default:"N/A"|floatformat:3 }}
+          </div>
+          <div class="col-md-3 metric-tile">
+            <strong>F1 Score:</strong><br />{{
+            metrics.f1|default:"N/A"|floatformat:3 }}
+          </div>
+        </div>
+      </div>
+      <div class="chart-section">
+        <h4>Visualizations</h4>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <canvas id="confusionMatrixChart"></canvas>
+          </div>
+          <div class="col-md-6 mb-4">
+            <canvas id="prfBarChart"></canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <canvas id="rocCurveChart"></canvas>
+          </div>
+          <div class="col-md-6 mb-4">
+            <canvas id="cvAccuracyChart"></canvas>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <canvas id="classDistChart"></canvas>
+          </div>
+          <div class="col-md-6 mb-4">
+            <canvas id="topFeaturesChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Serialize metrics safely for JS
+      const metrics = JSON.parse(`{{ metrics|safe|escapejs }}`);
+
+      // Confusion Matrix Chart
+      if (metrics.confusion_matrix && metrics.confusion_matrix.length) {
+        const ctx = document
+          .getElementById("confusionMatrixChart")
+          .getContext("2d");
+        new Chart(ctx, {
+          type: "matrix", // Chart.js matrix plugin required for heatmap
+          data: {
+            labels: Object.keys(metrics.class_distribution),
+            datasets: [
+              {
+                label: "Confusion Matrix",
+                data: metrics.confusion_matrix.flat(),
+                backgroundColor: "rgba(23,162,184,0.7)",
+              },
+            ],
+          },
+          options: {
+            plugins: { legend: { display: false } },
+            scales: {
+              x: { title: { display: true, text: "Predicted" } },
+              y: { title: { display: true, text: "Actual" } },
+            },
+          },
+        });
+      }
+
+      // Precision, Recall, F1 Bar Chart
+      const prfCtx = document.getElementById("prfBarChart").getContext("2d");
+      new Chart(prfCtx, {
+        type: "bar",
+        data: {
+          labels: ["Precision", "Recall", "F1"],
+          datasets: [
+            {
+              label: "Scores",
+              data: [
+                metrics.precision || 0,
+                metrics.recall || 0,
+                metrics.f1 || 0,
+              ],
+              backgroundColor: ["#17a2b8", "#ff9800", "#4caf50"],
+            },
+          ],
+        },
+        options: { scales: { y: { beginAtZero: true, max: 1 } } },
+      });
+
+      // ROC Curve Chart (if available)
+      const rocCtx = document.getElementById("rocCurveChart").getContext("2d");
+      new Chart(rocCtx, {
+        type: "bar",
+        data: {
+          labels: ["ROC AUC"],
+          datasets: [
+            {
+              label: "ROC AUC",
+              data: [metrics.roc_auc || 0],
+              backgroundColor: ["#17a2b8"],
+            },
+          ],
+        },
+        options: { scales: { y: { beginAtZero: true, max: 1 } } },
+      });
+
+      // Class Distribution Chart
+      const distCtx = document
+        .getElementById("classDistChart")
+        .getContext("2d");
+      const distLabels = Object.keys(metrics.class_distribution || {});
+      const distData = Object.values(metrics.class_distribution || {});
+      new Chart(distCtx, {
+        type: "pie",
+        data: {
+          labels: distLabels,
+          datasets: [
+            {
+              label: "Class Distribution",
+              data: distData,
+              backgroundColor: [
+                "#17a2b8",
+                "#ff9800",
+                "#4caf50",
+                "#e91e63",
+                "#9c27b0",
+              ],
+            },
+          ],
+        },
+      });
+
+      // Top Features Chart
+      const featuresCtx = document
+        .getElementById("topFeaturesChart")
+        .getContext("2d");
+      const topFeatures = metrics.top_features || {};
+      const featureLabels = Object.keys(topFeatures);
+      const featureData = featureLabels.map((l) => topFeatures[l].join(", "));
+      new Chart(featuresCtx, {
+        type: "bar",
+        data: {
+          labels: featureLabels,
+          datasets: [
+            {
+              label: "Top Features",
+              data: featureData,
+              backgroundColor: "#17a2b8",
+            },
+          ],
+        },
+        options: { indexAxis: "y", plugins: { legend: { display: false } } },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Log Analytics</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      .timeline-table th,
+      .timeline-table td {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+      }
+      /* Layout: left dates column + right analytics column */
+      .analytics-wrapper {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+        /* Prevent any horizontal overflow from the two-column layout */
+        overflow-x: hidden;
+      }
+      .dates-column {
+        flex: 0 0 260px;
+      }
+      .timeline-column {
+        flex: 1 1 auto;
+        /* leave room for header (approx) - add 2cm extra space to the bottom */
+        max-height: calc(100vh - 200px + 2cm);
+        overflow-y: auto;
+        /* explicitly prevent horizontal scrolling inside timeline area */
+        overflow-x: hidden;
+        padding-right: 12px;
+      }
+      /* Make the dates list area sticky so it remains visible while analytics scrolls */
+      .dates-column .card {
+        position: sticky;
+        top: 24px;
+      }
+      /* Make date items behave like buttons */
+      .date-item {
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="d-flex justify-content-between align-items-center mb-4"
+      style="padding: 20px 0 0 0"
+    >
+      <div
+        style="
+          background: #fff;
+          color: #17a2b8;
+          padding: 8px 212.976px;
+          border-radius: 6px;
+          font-weight: bold;
+          border: 2px solid #17a2b8;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-width: 340px;
+          margin: 0 auto;
+        "
+      >
+        <span class="h4 mb-0" style="color: #17a2b8; text-align: left"
+          >Comment Timeline Analytics</span
+        >
+        <div style="margin-left: 16px; display: flex; gap: 8px">
+          <!-- Home: project root -->
+          <a
+            href="{% url 'home' %}"
+            class="btn btn-light"
+            style="font-weight: bold"
+            >Home</a
+          >
+          <!-- Back: to current video dashboard when available -->
+          {% if current_video_id %}
+          <a
+            href="{% url 'dashboard_video' current_video_id %}"
+            class="btn btn-light"
+            style="font-weight: bold"
+            >Back</a
+          >
+          {% else %}
+          <a
+            href="{% url 'dashboard' %}"
+            class="btn btn-light"
+            style="font-weight: bold"
+            >Back</a
+          >
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <!-- Two-column analytics area: left = dates (sticky), right = timeline (scrollable) -->
+      <div class="analytics-wrapper">
+        <div class="dates-column">
+          <div class="card p-3">
+            {% if current_video_name %}
+            <h5 class="mb-2">{{ current_video_name }}</h5>
+            {% else %}
+            <h5 class="mb-2">All Videos</h5>
+            {% endif %}
+            <hr />
+            <div>
+              <h6 class="mb-2">Dates</h6>
+              <div class="list-group" id="dateList" role="list">
+                {% for d in sorted_dates %}
+                <div
+                  role="listitem"
+                  class="list-group-item date-item"
+                  data-date="{{ d }}"
+                  tabindex="0"
+                  aria-label="Select date {{ d }}"
+                >
+                  {{ d }}
+                </div>
+                {% empty %}
+                <div class="list-group-item">No dates</div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-column">
+          <div class="timeline-container">
+            <div class="timeline-line"></div>
+            <div id="timelineArea">
+              <!-- Timeline entries for the selected date will be injected here -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        // Prepack logs by date from server-rendered JSON
+        const logsByDate = JSON.parse(
+          "{{ timeline_logs_by_date_json|escapejs }}"
+        );
+
+        function renderTimelineForDate(dateKey) {
+          const container = document.getElementById("timelineArea");
+          container.innerHTML = "";
+          const logs = logsByDate[dateKey] || [];
+          if (logs.length === 0) {
+            container.innerHTML =
+              '<div class="alert alert-info">No comments for ' +
+              dateKey +
+              "</div>";
+            return;
+          }
+          logs.forEach(function (log, idx) {
+            const row = document.createElement("div");
+            row.className = "timeline-row-bus";
+            const isLeft = idx % 2 === 0;
+
+            if (isLeft) {
+              // left box
+              const leftBox = document.createElement("div");
+              leftBox.className = "timeline-box-bus timeline-box-bus-left";
+              leftBox.style.width = "240px";
+              leftBox.style.height = "110px";
+              leftBox.innerHTML = `
+                <div class="flip-inner comment-tile-flip">
+                  <div class="flip-front">
+                    <div><strong>Author:</strong> ${log.author}</div>
+                    <div><strong>Time:</strong> ${log.published_at_ist}</div>
+                    <div><strong>Operation:</strong> ${log.operation}</div>
+                  </div>
+                  <div class="flip-back">
+                    <div style="color: #444; font-size: 0.98rem; padding: 8px 0">
+                      <strong>Comment Text:</strong><br />${log.text}
+                    </div>
+                  </div>
+                </div>
+              `;
+              const connectorLeft = document.createElement("div");
+              connectorLeft.className =
+                "timeline-connector timeline-connector-left";
+              row.appendChild(leftBox);
+              row.appendChild(connectorLeft);
+            }
+
+            // node in center
+            const node = document.createElement("div");
+            node.className = "timeline-node-bus";
+            node.innerText = logs.length - idx;
+            row.appendChild(node);
+
+            if (!isLeft) {
+              const connectorRight = document.createElement("div");
+              connectorRight.className =
+                "timeline-connector timeline-connector-right";
+              const rightBox = document.createElement("div");
+              rightBox.className = "timeline-box-bus timeline-box-bus-right";
+              rightBox.style.width = "240px";
+              rightBox.style.height = "110px";
+              rightBox.innerHTML = `
+                <div class="flip-inner comment-tile-flip">
+                  <div class="flip-front">
+                    <div><strong>Author:</strong> ${log.author}</div>
+                    <div><strong>Time:</strong> ${log.published_at_ist}</div>
+                    <div><strong>Operation:</strong> ${log.operation}</div>
+                  </div>
+                  <div class="flip-back">
+                    <div style="color: #444; font-size: 0.98rem; padding: 8px 0">
+                      <strong>Comment Text:</strong><br />${log.text}
+                    </div>
+                  </div>
+                </div>
+              `;
+              row.appendChild(connectorRight);
+              row.appendChild(rightBox);
+            }
+
+            container.appendChild(row);
+          });
+
+          // Attach flip handlers for dynamically added items
+          container.querySelectorAll(".flip-inner").forEach(function (inner) {
+            inner.addEventListener("click", function (e) {
+              if (e.target.tagName === "A") return;
+              inner.classList.toggle("flipped");
+            });
+          });
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+          document.querySelectorAll(".date-item").forEach(function (li) {
+            li.addEventListener("click", function () {
+              document
+                .querySelectorAll(".date-item")
+                .forEach((x) => x.classList.remove("active"));
+              li.classList.add("active");
+              renderTimelineForDate(li.getAttribute("data-date"));
+            });
+            // keyboard activation (Enter/Space)
+            li.addEventListener("keydown", function (e) {
+              if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                li.click();
+              }
+            });
+          });
+          // Auto-select first date
+          const first = document.querySelector(".date-item");
+          if (first) {
+            first.click();
+          }
+        });
+      </script>
+      <style>
+        /* keep existing timeline CSS below */
+      </style>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          document.querySelectorAll(".flip-inner").forEach(function (inner) {
+            inner.addEventListener("click", function (e) {
+              // Prevent toggling if clicking on Home button
+              if (e.target.tagName === "A") return;
+              inner.classList.toggle("flipped");
+            });
+          });
+        });
+      </script>
+      <style>
+        .flip-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          transition: transform 0.6s;
+          transform-style: preserve-3d;
+          cursor: pointer;
+        }
+        .flip-inner.flipped {
+          transform: rotateY(180deg);
+        }
+        .flip-front,
+        .flip-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          backface-visibility: hidden;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .flip-front {
+          z-index: 2;
+        }
+        .flip-back {
+          transform: rotateY(180deg);
+          background: #fff;
+          border-radius: 8px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+          border: 1px solid #e0e0e0;
+          color: #444;
+          font-size: 0.98rem;
+          padding: 8px 0;
+        }
+        .timeline-container {
+          width: 100%;
+          padding: 40px 0;
+          position: relative;
+          /* ensure internal absolute elements can't force horizontal scroll */
+          overflow-x: hidden;
+          box-sizing: border-box;
+        }
+        .timeline-line {
+          position: absolute;
+          left: 50%;
+          top: 0;
+          width: 4px;
+          height: 100%;
+          background: #17a2b8;
+          transform: translateX(-50%);
+          z-index: 0;
+        }
+        .timeline-row-bus {
+          position: relative;
+          width: 100%;
+          min-height: 60px;
+          margin-bottom: 40px;
+        }
+        .timeline-node-bus {
+          position: absolute;
+          left: 50%;
+          top: 0;
+          transform: translate(-50%, 0);
+          width: 40px;
+          height: 40px;
+          background: #fff;
+          border: 4px solid #17a2b8;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-weight: bold;
+          font-size: 1.1rem;
+          color: #17a2b8;
+          z-index: 2;
+        }
+        .timeline-box-bus {
+          position: absolute;
+          top: 0;
+          min-width: 220px;
+          max-width: calc(
+            50vw - 140px
+          ); /* prevent boxes from becoming wider than viewport */
+          background: #f7f7f7;
+          border-radius: 8px;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+          padding: 12px 18px;
+          font-size: 0.95rem;
+          border: 1px solid #e0e0e0;
+          box-sizing: border-box;
+          word-wrap: break-word;
+          overflow-wrap: break-word;
+        }
+        .timeline-box-bus-left {
+          left: calc(50% - 220px - 200px);
+          text-align: right;
+        }
+        .timeline-box-bus-right {
+          left: calc(50% + 40px + 150px);
+          text-align: left;
+        }
+        .timeline-connector {
+          position: absolute;
+          top: 20px;
+          width: 150px;
+          height: 0;
+          border-top: 2px dashed #b2b2b2;
+          z-index: 1;
+        }
+        .timeline-connector-left {
+          left: calc(50% - 20px);
+          transform: translateX(-100%);
+        }
+        .timeline-connector-right {
+          left: calc(50% + 20px);
+        }
+      </style>
+    </div>
+  </body>
+</html>
