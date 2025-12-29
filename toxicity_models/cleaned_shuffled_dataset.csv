@@ -1,0 +1,1109 @@
+Language_Type,Toxic_Word_or_Phrase,Context_or_Example_Sentence,Category_of_Toxicity
+Hybrid,bully doola lanja,You are a bully doola lanja,Harassment / Bullying
+Hybrid,bloody chetta,I hate bloody chettas,Other
+English,douchebag,douchebag bastard,Abusive / Insult
+English,,Today is {day},Neutral
+English,dox,I hate doxs,Harassment / Bullying
+English,go to hell,This is go to hell shit,Harassment / Bullying
+Hybrid,numpty picchi,I hate numpty picchis,Other
+Telugu,gaadida,gaadida loser,Abusive / Insult
+English,go to hell,go to hell bastard,Harassment / Bullying
+English,motherfucker,This is motherfucker shit,Sexual / Obscene
+Telugu,kutha,kutha kutha kutha laduthunnadhi,Sexual / Obscene
+Telugu,vakshaalu vakshojaalu Yoni,nee yoni lo rasam vakshaalanu thaakuthundhi,Sexual / Obscene
+Telugu,vedhava,vedhava loser,Other
+Telugu,,Chala bagundi pani,Neutral
+Telugu,gaadida,I hate gaadidas,Abusive / Insult
+Telugu,lanja,You are a lanja,Sexual / Obscene
+Telugu,gudda,What a gudda,Sexual / Obscene
+Telugu,pichi lanja,You are a pichi lanja,Sexual / Obscene
+Telugu,lanjakodaka,You are a lanjakodaka,Sexual / Obscene
+Telugu,niyamma denga,I will niyamma denga you,Sexual / Obscene
+Telugu,puku lo naa modda,Put puku lo naa modda,Sexual / Obscene
+Telugu,sulli lanjakodaka,You sulli lanjakodaka,Sexual / Obscene
+Telugu,davada denguthayi,They davada denguthayi,Sexual / Obscene
+Telugu,gudhalo puku,In gudhalo puku,Sexual / Obscene
+Telugu,sulli lanja na kodaka,You are sulli lanja na kodaka,Sexual / Obscene
+Telugu,naa sulli chiku,Naa sulli chiku now,Sexual / Obscene
+Telugu,vatakayalu denguthayi,Vatakayalu denguthayi you,Sexual / Obscene
+Telugu,mogga,Ni moham mogga laga undi,Sexual / Obscene
+Telugu,puvvu,You are a puvvu,Sexual / Obscene
+Telugu,erri puvvu,Erri puvvu ra nuv,Sexual / Obscene
+Telugu,chathanakondhaka,You chathanakondhaka,Sexual / Obscene
+Telugu,mingey,Mingey this,Sexual / Obscene
+Telugu,tengey,Tengey that,Sexual / Obscene
+Telugu,kutha,You kutha,Sexual / Obscene
+Telugu,saad,Saad person,Sexual / Obscene
+Telugu,balisindhi,It balisindhi,Sexual / Obscene
+Telugu,vattalu,Vattalu here,Sexual / Obscene
+Telugu,vattakayalu,Vattakayalu there,Sexual / Obscene
+Hybrid,dengu dengu,Anna suuper anna dengu dengu,Sexual / Obscene
+Hybrid,pooku singari,Teeta pooku singari,Sexual / Obscene
+Hybrid,gudda loki,Nee gudda loki doori,Sexual / Obscene
+Hybrid,dengutane oo pori,Dengutane oo pori,Sexual / Obscene
+Hybrid,gudda bangari,Barre gudda bangari,Sexual / Obscene
+Hybrid,sandla chinnari,Meka sandla chinnari,Sexual / Obscene
+Hybrid,pooku choopu,Pooku choopu oosari,Sexual / Obscene
+Hybrid,emayindo sulli,Emayindo sulli,Sexual / Obscene
+Hybrid,akka guddala sulli,Nee akka guddala sulli,Sexual / Obscene
+Hybrid,aathullo naakinni,Nee aathullo naakinni aathuliste,Sexual / Obscene
+Hybrid,sulli nuvvu cheekithe,Na sulli nuvvu cheekithe,Sexual / Obscene
+Hybrid,lanja laaga,Lanja laaga chusukunta,Sexual / Obscene
+Hybrid,langa lepi,Nee langa lepi dengutunta,Sexual / Obscene
+Hybrid,pooke eppudo,Nee pooke eppudo ila,Sexual / Obscene
+Hybrid,pandabetti dengadaniki,Pandabetti dengadaniki fuck,Sexual / Obscene
+Telugu,,Nenu {subject} istapaduthunnanu,Neutral
+Hybrid,sod pooku,You're such a sod pooku,Sexual / Obscene
+Hybrid,idiot chavu,This is idiot chavu shit,Abusive / Insult
+Hybrid,bugger erugu,I hate bugger erugus,Other
+Telugu,,Nenu {place} ki vellanu,Neutral
+Hybrid,get lost gudda dengu,Stop being a get lost gudda dengu,Harassment / Bullying
+Hybrid,douchebag vedava,douchebag vedava loser,Abusive / Insult
+Telugu,chetta,chetta bastard,Other
+Hybrid,loser die chavugottu,I hate loser die chavugottus,Harassment / Bullying
+Hybrid,xenophobe lanja munda,I hate xenophobe lanja mundas,Hate Speech
+Telugu,,Poor performance,Neutral
+Telugu,donga na kodaka,Go donga na kodaka yourself,Abusive / Insult
+Hybrid,,The movie is {genre} type,Neutral
+Telugu,gudda,What a gudda,Sexual / Obscene
+English,cunt,This is cunt shit,Sexual / Obscene
+English,islamophobe,You are a islamophobe,Hate Speech
+English,die,Stop being a die,Harassment / Bullying
+Hybrid,,I'm excited for upcoming {thing},Neutral
+Hybrid,,Today is {day} day,Neutral
+Telugu,,Nenu {activity} enjoy chestunnanu,Neutral
+English,balls,Fucking balls,Other
+English,pillock,You are a pillock,Other
+English,pussy,Go pussy yourself,Sexual / Obscene
+English,,I'm sad about the news,Neutral
+Hybrid,shut up chavugottu,I hate shut up chavugottus,Harassment / Bullying
+English,,I went to {place},Neutral
+English,loser,Go loser yourself,Abusive / Insult
+English,racist,You are a racist,Hate Speech
+Telugu,,Aa {object} {color},Neutral
+Telugu,erri pooka,You are a erri pooka,Sexual / Obscene
+Telugu,munda,Fucking munda,Hate Speech
+Hybrid,stalker geviri gaadida,stalker geviri gaadida loser,Harassment / Bullying
+Hybrid,get lost nee amma dengu,Fucking get lost nee amma dengu,Harassment / Bullying
+Hybrid,frig erugu,Go frig erugu yourself,Other
+Telugu,yedava,Fucking yedava,Abusive / Insult
+Hybrid,bigot kula gajji,bigot kula gajji bastard,Hate Speech
+Hybrid,loser die moya,You're such a loser die moya,Harassment / Bullying
+Hybrid,dox dongana kodaka,This is dox dongana kodaka shit,Harassment / Bullying
+Hybrid,get lost chavu,What a get lost chavu,Harassment / Bullying
+English,homophobe,What a homophobe,Hate Speech
+Telugu,,Idi nirashaparachindi,Neutral
+Hybrid,asshole yedava,You are a asshole yedava,Abusive / Insult
+Hybrid,wank erri pooka,You're such a wank erri pooka,Sexual / Obscene
+Hybrid,sexist lanja munda,sexist lanja munda loser,Hate Speech
+Telugu,chavugottu,chavugottu bastard,Harassment / Bullying
+Hybrid,go to hell vedhava,Fucking go to hell vedhava,Harassment / Bullying
+Telugu,dongana kodaka,Stop being a dongana kodaka,Abusive / Insult
+Hybrid,hell bosudi,hell bosudi loser,Other
+Hybrid,,I saw a cow in park,Neutral
+English,transphobe,You're such a transphobe,Hate Speech
+Hybrid,git vedhava,This is git vedhava shit,Other
+Hybrid,get lost chavugottu,I hate get lost chavugottus,Harassment / Bullying
+English,sod,I hate sods,Sexual / Obscene
+English,douchebag,Stop being a douchebag,Abusive / Insult
+English,blowjob,Fucking blowjob,Sexual / Obscene
+English,douchebag,Go douchebag yourself,Abusive / Insult
+Hybrid,dox gudda dengu,dox gudda dengu loser,Harassment / Bullying
+Telugu,,Cinema {genre},Neutral
+Hybrid,balls vedhava,What a balls vedhava,Other
+Hybrid, knob gudda,You are a  knob gudda,Sexual / Obscene
+English,anti-semite,What a anti-semite,Hate Speech
+Hybrid,troll chavugottu,You are a troll chavugottu,Harassment / Bullying
+Hybrid,idiot chetta vedhava,I hate idiot chetta vedhavas,Abusive / Insult
+Hybrid,damn chetta,damn chetta loser,Other
+English,berk,You are a berk,Other
+Telugu,picchi,You are a picchi,Other
+Hybrid,prick nee amma dengu,Fucking prick nee amma dengu,Sexual / Obscene
+Hybrid,stupid erri pooka,stupid erri pooka bastard,Abusive / Insult
+English,harass,Fucking harass,Harassment / Bullying
+English,moron,moron bastard,Abusive / Insult
+English,get lost,Fucking get lost,Harassment / Bullying
+Telugu,pichchi kukka,pichchi kukka loser,Hate Speech
+Hybrid,muppet picchi,This is muppet picchi shit,Other
+English,asshole,asshole loser,Abusive / Insult
+English,sod,What a sod,Sexual / Obscene
+English,bollocks,You are a bollocks,Sexual / Obscene
+Hybrid,threat nee amma dengu,threat nee amma dengu loser,Harassment / Bullying
+English,jerk,What a jerk,Abusive / Insult
+English,bigot,Stop being a bigot,Hate Speech
+English,dick,dick bastard,Sexual / Obscene
+English,prick,Fucking prick,Abusive / Insult
+Hybrid,fuck off chavu,fuck off chavu loser,Harassment / Bullying
+English,shithead,This is shithead shit,Abusive / Insult
+Hybrid,stalker chavugottu,I hate stalker chavugottus,Harassment / Bullying
+Hybrid,dipshit puku,You are a dipshit puku,Abusive / Insult
+Telugu,pichchi kukka,Go pichchi kukka yourself,Hate Speech
+Hybrid,fuck dengu,You are a fuck dengu,Sexual / Obscene
+Hybrid,berk erugu,Fucking berk erugu,Other
+Hybrid,shut up chavugottu,You are a shut up chavugottu,Harassment / Bullying
+Hybrid,,I love ee {subject},Neutral
+Hybrid,bugger erugu,bugger erugu bastard,Other
+Telugu,modda,modda loser,Sexual / Obscene
+English,hater,You are a hater,Hate Speech
+Telugu,yedava,yedava loser,Abusive / Insult
+Hybrid,get lost moya,You are a get lost moya,Harassment / Bullying
+Hybrid,hater chavugottu,What a hater chavugottu,Hate Speech
+Hybrid,bellend addagadidha,What a bellend addagadidha,Abusive / Insult
+Telugu,chetta,I hate chettas,Other
+Telugu,pichoda,pichoda loser,Abusive / Insult
+Hybrid,pussy erri pooka,pussy erri pooka loser,Sexual / Obscene
+Telugu,dengu,I hate dengus,Sexual / Obscene
+English,bollocks,Go bollocks yourself,Sexual / Obscene
+Telugu,,Pustakam {topic} gurinchi,Neutral
+Hybrid,frig picchi,Go frig picchi yourself,Other
+Telugu,lanja,I hate lanjas,Sexual / Obscene
+Telugu,gudda dengu,You're such a gudda dengu,Harassment / Bullying
+Hybrid,cunt picchi,cunt picchi bastard,Sexual / Obscene
+Hybrid,knob lanja,Stop being a knob lanja,Sexual / Obscene
+English,go to hell,Fucking go to hell,Harassment / Bullying
+Telugu,picchi,Stop being a picchi,Abusive / Insult
+English,tosser,This is tosser shit,Other
+Hybrid,die nee amma dengu,Go die nee amma dengu yourself,Harassment / Bullying
+English,hell,You're such a hell,Other
+Telugu,gudda dengu,This is gudda dengu shit,Harassment / Bullying
+Hybrid,prick chavugottu,I hate prick chavugottus,Abusive / Insult
+English,islamophobe,I hate islamophobes,Hate Speech
+English,,That's unfortunate,Neutral
+Hybrid,pillock chetta,Fucking pillock chetta,Other
+Telugu,bosudi,What a bosudi,Abusive / Insult
+English,dumbass,I hate dumbasss,Abusive / Insult
+Hybrid,,I dislike doing {activity},Neutral
+Hybrid,bollocks dengu,This is bollocks dengu shit,Sexual / Obscene
+Telugu,picchi,Fucking picchi,Other
+English,,I love {subject},Neutral
+Telugu,nee amma dengu,What a nee amma dengu,Harassment / Bullying
+Hybrid,dumbass yedava,What a dumbass yedava,Abusive / Insult
+Hybrid,wanker chetta vedhava,Fucking wanker chetta vedhava,Abusive / Insult
+English,,I'm excited for the book,Neutral
+Hybrid,transphobe munda,transphobe munda bastard,Hate Speech
+Telugu,pooku,What a pooku,Sexual / Obscene
+Telugu,nee amma dengu,You're such a nee amma dengu,Harassment / Bullying
+Telugu,,Nenu fruit tinnanu,Neutral
+Telugu,chavu,You're such a chavu,Harassment / Bullying
+Hybrid,plonker kula gajji,plonker kula gajji loser,Other
+Hybrid,motherfucker bosudi,You are a motherfucker bosudi,Sexual / Obscene
+Hybrid,twat nee amma dengu,What a twat nee amma dengu,Sexual / Obscene
+Hybrid,pillock picchi,pillock picchi loser,Other
+Telugu,erri pooka,This is erri pooka shit,Sexual / Obscene
+English,damn,This is damn shit,Other
+Telugu,,Nenu the update gurinchi badhaga unnanu,Neutral
+Hybrid,git chetta,You are a git chetta,Other
+Telugu,,Nenu oka {animal} chusanu,Neutral
+Hybrid,loser gaadida,You're such a loser gaadida,Abusive / Insult
+Telugu,geviri gaadida,I hate geviri gaadidas,Abusive / Insult
+Telugu,vedava,vedava bastard,Abusive / Insult
+Hybrid,shithead pandi vedhava,I hate shithead pandi vedhavas,Abusive / Insult
+Telugu,,Nenu {event} gurinchi badhaga unnanu,Neutral
+English,crap,What a crap,Other
+Hybrid,hater moya,hater moya loser,Hate Speech
+Hybrid,fuck off gudda dengu,Go fuck off gudda dengu yourself,Harassment / Bullying
+English,threat,You are a threat,Harassment / Bullying
+Hybrid,piss off chavugottu,You are a piss off chavugottu,Harassment / Bullying
+Hybrid,,I enjoy this hiking chala,Neutral
+Hybrid,bully chavugottu,I hate bully chavugottus,Harassment / Bullying
+Hybrid,go to hell munda,What a go to hell munda,Harassment / Bullying
+Hybrid,karen pichchi kukka,Go karen pichchi kukka yourself,Hate Speech
+English,bellend,What a bellend,Sexual / Obscene
+Telugu,pedda salladhi,What a pedda salladhi,Sexual / Obscene
+Hybrid,prick yedava,I hate prick yedavas,Abusive / Insult
+Hybrid,kill yourself lanja munda,You are a kill yourself lanja munda,Harassment / Bullying
+English,shit,shit bastard,Sexual / Obscene
+English,,I'm sad about the meeting,Neutral
+Hybrid,bellend donga na kodaka,This is bellend donga na kodaka shit,Abusive / Insult
+Telugu,moya,moya bastard,Harassment / Bullying
+English,bugger,bugger loser,Sexual / Obscene
+English,shag,I hate shags,Sexual / Obscene
+Telugu,doola lanja,Go doola lanja yourself,Hate Speech
+Hybrid,bugger picchi,Fucking bugger picchi,Other
+Hybrid,knobhead munda,I hate knobhead mundas,Abusive / Insult
+Hybrid,cyberbully chavu,Go cyberbully chavu yourself,Harassment / Bullying
+Hybrid,douchebag cheththa vedhava,douchebag cheththa vedhava bastard,Abusive / Insult
+Hybrid,fucker guddha naku,You are a fucker guddha naku,Sexual / Obscene
+English,numpty,Stop being a numpty,Other
+Telugu,chetta,chetta loser,Other
+Hybrid,bigot dengu,Go bigot dengu yourself,Hate Speech
+Hybrid,stalker moya,Go stalker moya yourself,Harassment / Bullying
+Telugu,chavu,Stop being a chavu,Harassment / Bullying
+English,,I'm worried about {thing},Neutral
+Hybrid,damn chetta,Fucking damn chetta,Other
+Hybrid,xenophobe pichchi kukka,xenophobe pichchi kukka loser,Hate Speech
+English,dox,dox bastard,Harassment / Bullying
+Hybrid,bigot kula gajji,This is bigot kula gajji shit,Hate Speech
+Hybrid,twit vedhava,This is twit vedhava shit,Other
+Hybrid,anti-semite munda,I hate anti-semite mundas,Hate Speech
+Hybrid,sexist lanja munda,Stop being a sexist lanja munda,Hate Speech
+English,bugger,I hate buggers,Other
+Telugu,,Nenu oka fish chusanu,Neutral
+English,,I appreciate the artist,Neutral
+Hybrid,hater moya,You're such a hater moya,Hate Speech
+English,motherfucker,You're such a motherfucker,Sexual / Obscene
+Hybrid,plonker doola lanja,This is plonker doola lanja shit,Other
+Telugu,adda gaadidha,What a adda gaadidha,Abusive / Insult
+English,bugger,I hate buggers,Sexual / Obscene
+Hybrid,twat erri pooka,What a twat erri pooka,Sexual / Obscene
+Hybrid,bigot doola lanja,I hate bigot doola lanjas,Hate Speech
+Telugu,kutha,kutha kutha kutha laduthunnadhi,Sexual / Obscene
+Telugu,vakshaalu vakshojaalu Yoni,nee yoni lo rasam vakshaalanu thaakuthundhi,Sexual / Obscene
+Hybrid,asshole picchi,You're such a asshole picchi,Abusive / Insult
+English,muppet,You are a muppet,Other
+English,xenophobe,Fucking xenophobe,Hate Speech
+English,incel,I hate incels,Hate Speech
+Hybrid,harass chavugottu,You're such a harass chavugottu,Harassment / Bullying
+English,frig,You're such a frig,Other
+Hybrid,racist munda,Fucking racist munda,Hate Speech
+English,transphobe,This is transphobe shit,Hate Speech
+Hybrid,xenophobe pichoda,I hate xenophobe pichodas,Hate Speech
+Hybrid,piss off moya,You're such a piss off moya,Harassment / Bullying
+Hybrid,bugger pichchi kukka,You are a bugger pichchi kukka,Other
+Hybrid,stalker chavu,I hate stalker chavus,Harassment / Bullying
+Telugu,yedava,This is yedava shit,Abusive / Insult
+Hybrid,tosser chetta,Go tosser chetta yourself,Other
+Hybrid,shit erugu,You're such a shit erugu,Sexual / Obscene
+English,motherfucker,You are a motherfucker,Sexual / Obscene
+Hybrid,crap nee amma dengu,You are a crap nee amma dengu,Other
+English,hell,You are a hell,Other
+Hybrid,dumbass geviri gaadida,Fucking dumbass geviri gaadida,Abusive / Insult
+Hybrid,dox chavu,dox chavu bastard,Harassment / Bullying
+English,,The sky is yellow,Neutral
+English,prick,You're such a prick,Sexual / Obscene
+Hybrid,cyberbully moya,You are a cyberbully moya,Harassment / Bullying
+English,plonker,Go plonker yourself,Other
+English,bellend,Fucking bellend,Abusive / Insult
+Hybrid,,What a tough day ra,Neutral
+Hybrid,misogynist nee amma dengu,Fucking misogynist nee amma dengu,Hate Speech
+Hybrid,bully chavu,bully chavu loser,Harassment / Bullying
+Hybrid,sexist gudda dengu,What a sexist gudda dengu,Hate Speech
+Hybrid,berk erugu,You are a berk erugu,Other
+English,sod,Stop being a sod,Other
+Hybrid,threat bosudi,Stop being a threat bosudi,Harassment / Bullying
+English,,The time is {time},Neutral
+Telugu,chetta,You are a chetta,Other
+Hybrid,karen chavugottu,You're such a karen chavugottu,Hate Speech
+Hybrid,islamophobe doola lanja,I hate islamophobe doola lanjas,Hate Speech
+Telugu,,Time {time},Neutral
+Hybrid,douchebag chetta na kodaka,What a douchebag chetta na kodaka,Abusive / Insult
+English,bugger,You're such a bugger,Other
+English,sod,Stop being a sod,Sexual / Obscene
+Hybrid,pillock chetta,Stop being a pillock chetta,Other
+Hybrid,pussy doola lanja,I hate pussy doola lanjas,Sexual / Obscene
+Telugu,,Nenu family istapaduthunnanu,Neutral
+Hybrid,,I saw a {animal} in park,Neutral
+English,kill yourself,I hate kill yourselfs,Harassment / Bullying
+Hybrid,shithead adda gaadidha,shithead adda gaadidha bastard,Abusive / Insult
+English,wanker,Stop being a wanker,Abusive / Insult
+English,bugger,Stop being a bugger,Sexual / Obscene
+Hybrid,dipshit gaadida,What a dipshit gaadida,Abusive / Insult
+English,cunt,Fucking cunt,Sexual / Obscene
+Hybrid,cock bosudi,Fucking cock bosudi,Sexual / Obscene
+English,knobhead,What a knobhead,Abusive / Insult
+Hybrid,moron pichoda,moron pichoda loser,Abusive / Insult
+Hybrid,sexist doola lanja,You're such a sexist doola lanja,Hate Speech
+English,harass,What a harass,Harassment / Bullying
+Telugu,,Adi duradrushtam,Neutral
+English,ass,ass bastard,Sexual / Obscene
+Hybrid,,I dislike doing running,Neutral
+Hybrid,cock modda,I hate cock moddas,Sexual / Obscene
+English,misogynist,This is misogynist shit,Hate Speech
+Telugu,,Adi adbhutam,Neutral
+Telugu,lanja,Fucking lanja,Sexual / Obscene
+Hybrid,bigot kula gajji,bigot kula gajji loser,Hate Speech
+Hybrid,nazi vedhava,You are a nazi vedhava,Hate Speech
+English,,I'm sad about {event},Neutral
+Hybrid,hater lanja munda,This is hater lanja munda shit,Hate Speech
+Telugu,lanja,What a lanja,Sexual / Obscene
+Hybrid,wank erri pooka,This is wank erri pooka shit,Sexual / Obscene
+Telugu,doola lanja,You are a doola lanja,Hate Speech
+Hybrid,numpty vedhava,I hate numpty vedhavas,Other
+Telugu,cheththa vedhava,What a cheththa vedhava,Abusive / Insult
+English,pillock,This is pillock shit,Other
+Hybrid,wanker addagadidha,Fucking wanker addagadidha,Abusive / Insult
+English,shithead,I hate shitheads,Abusive / Insult
+Hybrid,dox nee amma dengu,I hate dox nee amma dengus,Harassment / Bullying
+English,tosser,I hate tossers,Other
+English,bully,This is bully shit,Harassment / Bullying
+Hybrid,douchebag geviri gaadida,You're such a douchebag geviri gaadida,Abusive / Insult
+English,twat,You are a twat,Sexual / Obscene
+Telugu,puku,puku loser,Sexual / Obscene
+Telugu,chavu,This is chavu shit,Harassment / Bullying
+English,karen,I hate karens,Hate Speech
+Hybrid,sod pedda salladhi,You're such a sod pedda salladhi,Sexual / Obscene
+Hybrid,bully moya,bully moya bastard,Harassment / Bullying
+Telugu,gudda dengu,What a gudda dengu,Harassment / Bullying
+Hybrid,nazi munda,What a nazi munda,Hate Speech
+Telugu,chetta vedhava,You're such a chetta vedhava,Abusive / Insult
+Hybrid,bellend moya,Go bellend moya yourself,Sexual / Obscene
+Telugu,picchi,Stop being a picchi,Other
+English,incel,You are a incel,Hate Speech
+Telugu,guddha naku,Stop being a guddha naku,Sexual / Obscene
+English,moron,I hate morons,Abusive / Insult
+Hybrid,frig chetta,Go frig chetta yourself,Other
+Hybrid,dipshit chetta na kodaka,What a dipshit chetta na kodaka,Abusive / Insult
+English,supremacist,You are a supremacist,Hate Speech
+Hybrid,cyberbully chavugottu,cyberbully chavugottu bastard,Harassment / Bullying
+English,balls,This is balls shit,Other
+Telugu,cheththa vedhava,You are a cheththa vedhava,Abusive / Insult
+Hybrid,incel nee amma dengu,You're such a incel nee amma dengu,Hate Speech
+Telugu,nee amma dengu,I hate nee amma dengus,Harassment / Bullying
+English,nazi,Fucking nazi,Hate Speech
+Telugu,pichchi kukka,I hate pichchi kukkas,Hate Speech
+English,pillock,pillock bastard,Other
+Hybrid,knobhead pichoda,Go knobhead pichoda yourself,Abusive / Insult
+English,go to hell,You're such a go to hell,Harassment / Bullying
+Hybrid,stupid kula gajji,You're such a stupid kula gajji,Abusive / Insult
+Hybrid,knob vedhava,knob vedhava loser,Sexual / Obscene
+Hybrid,anti-semite nee amma,This is anti-semite nee amma shit,Hate Speech
+Hybrid,moron chavu,You are a moron chavu,Abusive / Insult
+Hybrid,piss off chavugottu,Go piss off chavugottu yourself,Harassment / Bullying
+Hybrid,dick picchi,This is dick picchi shit,Sexual / Obscene
+Hybrid,piss puku,You are a piss puku,Other
+English,twat,twat bastard,Sexual / Obscene
+Telugu,chavugottu,What a chavugottu,Harassment / Bullying
+Hybrid,go to hell nee amma dengu,You're such a go to hell nee amma dengu,Harassment / Bullying
+Hybrid,,I ate {food} for lunch,Neutral
+English,hater,What a hater,Hate Speech
+Telugu,nee amma dengu,This is nee amma dengu shit,Harassment / Bullying
+Telugu,munda,This is munda shit,Hate Speech
+Hybrid,frig chetta,Stop being a frig chetta,Other
+Telugu,lanja munda,You are a lanja munda,Hate Speech
+Hybrid,,The {object} is {color} color,Neutral
+Hybrid,tosser gudda,tosser gudda bastard,Other
+Hybrid,tosser picchi,Fucking tosser picchi,Other
+Hybrid,,I live in Tokyo city,Neutral
+English,cock,What a cock,Sexual / Obscene
+English,racist,You're such a racist,Hate Speech
+Hybrid,ass pedda salladhi,Go ass pedda salladhi yourself,Sexual / Obscene
+Telugu,,Nenu dancing dislike chestunnanu,Neutral
+Hybrid,troll chavu,troll chavu loser,Harassment / Bullying
+Hybrid,shag gudda,You're such a shag gudda,Sexual / Obscene
+Hybrid,wanker donga na kodaka,wanker donga na kodaka bastard,Abusive / Insult
+English,douchebag,Fucking douchebag,Abusive / Insult
+English,piss off,This is piss off shit,Harassment / Bullying
+Hybrid,idiot gaadida,I hate idiot gaadidas,Abusive / Insult
+Hybrid,moron pichchi,You're such a moron pichchi,Abusive / Insult
+Hybrid,plonker erugu,This is plonker erugu shit,Other
+English,,This makes me frown,Neutral
+Hybrid,stalker chetta,You are a stalker chetta,Harassment / Bullying
+Telugu,pichchi kukka,Stop being a pichchi kukka,Hate Speech
+Hybrid,dumbass pichchi,Stop being a dumbass pichchi,Abusive / Insult
+Hybrid,bellend guddha naku,bellend guddha naku loser,Sexual / Obscene
+Hybrid,hater doola lanja,What a hater doola lanja,Hate Speech
+Hybrid,dipshit dongana kodaka,dipshit dongana kodaka bastard,Abusive / Insult
+Telugu,picchi,picchi loser,Other
+Hybrid,bollocks erri pooka,This is bollocks erri pooka shit,Sexual / Obscene
+Hybrid,numbskull erugu,You're such a numbskull erugu,Abusive / Insult
+English,crap,crap bastard,Other
+Hybrid,shithead yedava,Stop being a shithead yedava,Abusive / Insult
+Telugu,pichoda,Go pichoda yourself,Abusive / Insult
+English,wanker,This is wanker shit,Abusive / Insult
+Telugu,chavu,I hate chavus,Harassment / Bullying
+Hybrid,homophobe kula gajji,homophobe kula gajji loser,Hate Speech
+English,bully,I hate bullys,Harassment / Bullying
+English,stupid,stupid bastard,Abusive / Insult
+Telugu,chetta vedhava,Stop being a chetta vedhava,Abusive / Insult
+Hybrid,cock dengu,What a cock dengu,Sexual / Obscene
+Hybrid,islamophobe guddha naku,islamophobe guddha naku bastard,Hate Speech
+Hybrid,troll moya,troll moya bastard,Harassment / Bullying
+Hybrid,shithead pichoda,Go shithead pichoda yourself,Abusive / Insult
+English,frig,What a frig,Other
+Hybrid,stalker chavu,You're such a stalker chavu,Harassment / Bullying
+Hybrid,anti-semite munda,Fucking anti-semite munda,Hate Speech
+English,threat,Fucking threat,Harassment / Bullying
+English,,The movie is {genre},Neutral
+Hybrid,bugger erugu,Go bugger erugu yourself,Other
+Hybrid,harass doola lanja,harass doola lanja loser,Harassment / Bullying
+Hybrid,jerk vedava,What a jerk vedava,Abusive / Insult
+English,,I enjoy swimming,Neutral
+Telugu,pooku,I hate pookus,Sexual / Obscene
+Hybrid,numbskull puku,Fucking numbskull puku,Abusive / Insult
+Hybrid,homophobe doola lanja,You're such a homophobe doola lanja,Hate Speech
+Hybrid,cyberbully nee amma dengu,This is cyberbully nee amma dengu shit,Harassment / Bullying
+Telugu,chavu,You are a chavu,Harassment / Bullying
+Hybrid,numbskull bosudi,Go numbskull bosudi yourself,Abusive / Insult
+Telugu,,Time evening,Neutral
+Telugu,,Nenu {food} tinnanu,Neutral
+Telugu,vedava,This is vedava shit,Abusive / Insult
+Hybrid,stalker pandi vedhava,What a stalker pandi vedhava,Harassment / Bullying
+English,bellend,Stop being a bellend,Abusive / Insult
+Hybrid,supremacist chetta,Fucking supremacist chetta,Hate Speech
+Hybrid,hater lanja munda,Stop being a hater lanja munda,Hate Speech
+English,asshole,You are a asshole,Abusive / Insult
+Telugu,,Idi nannu muggu chestundi,Neutral
+English,misogynist,Stop being a misogynist,Hate Speech
+English,motherfucker,What a motherfucker,Sexual / Obscene
+English,wanker,You are a wanker,Abusive / Insult
+Hybrid,prick pooku,Fucking prick pooku,Sexual / Obscene
+English,git,I hate gits,Other
+Hybrid,blowjob guddha naku,This is blowjob guddha naku shit,Sexual / Obscene
+English,jerk,I hate jerks,Abusive / Insult
+Telugu,,Nenu sandwich tinnanu,Neutral
+Hybrid,troll kula gajji,troll kula gajji bastard,Harassment / Bullying
+English,,That's awesome,Neutral
+Telugu,erugu,erugu loser,Abusive / Insult
+Hybrid,crap vedava,Stop being a crap vedava,Other
+Hybrid,,I appreciate your {person},Neutral
+Hybrid,idiot gaadida,What a idiot gaadida,Abusive / Insult
+Hybrid,loser vedava,You're such a loser vedava,Abusive / Insult
+Hybrid,supremacist puku,Go supremacist puku yourself,Hate Speech
+Hybrid,bigot doola lanja,You're such a bigot doola lanja,Hate Speech
+Hybrid,,What a wonderful day idi,Neutral
+Hybrid,stalker erugu,stalker erugu loser,Harassment / Bullying
+English,idiot,Stop being a idiot,Abusive / Insult
+Hybrid,git picchi,Stop being a git picchi,Other
+Telugu,chavugottu,I hate chavugottus,Harassment / Bullying
+Hybrid,kill yourself nee amma dengu,You are a kill yourself nee amma dengu,Harassment / Bullying
+Hybrid,islamophobe cheththa vedhava,Go islamophobe cheththa vedhava yourself,Hate Speech
+Hybrid,prick guddha naku,Fucking prick guddha naku,Sexual / Obscene
+Hybrid,,I disagree with that the doctor,Neutral
+Hybrid,,I dislike doing dancing,Neutral
+Hybrid,dumbass pichoda,Fucking dumbass pichoda,Abusive / Insult
+Telugu,pedda salladhi,You're such a pedda salladhi,Sexual / Obscene
+Telugu,chavu,Go chavu yourself,Harassment / Bullying
+Hybrid,kill yourself pichchi kukka,Go kill yourself pichchi kukka yourself,Harassment / Bullying
+Telugu,erri pooka,I hate erri pookas,Sexual / Obscene
+Hybrid,piss picchi,piss picchi loser,Other
+Hybrid,prick gudda,Go prick gudda yourself,Sexual / Obscene
+Hybrid,threat chavu,You are a threat chavu,Harassment / Bullying
+Telugu,chavugottu,Fucking chavugottu,Harassment / Bullying
+Hybrid,transphobe doola lanja,Stop being a transphobe doola lanja,Hate Speech
+English,moron,Go moron yourself,Abusive / Insult
+English,homophobe,Go homophobe yourself,Hate Speech
+Hybrid,,I'm worried about future {thing},Neutral
+English,islamophobe,This is islamophobe shit,Hate Speech
+Hybrid,harass nee amma dengu,You are a harass nee amma dengu,Harassment / Bullying
+Hybrid,damn picchi,You are a damn picchi,Other
+Telugu,pooku,Fucking pooku,Sexual / Obscene
+English,go to hell,go to hell loser,Harassment / Bullying
+Hybrid,twat pichchi kukka,You're such a twat pichchi kukka,Sexual / Obscene
+Hybrid,die chavu,Go die chavu yourself,Harassment / Bullying
+Hybrid,sexist doola lanja,I hate sexist doola lanjas,Hate Speech
+English,wank,wank loser,Sexual / Obscene
+Hybrid,blowjob munda,blowjob munda loser,Sexual / Obscene
+English,fucker,This is fucker shit,Sexual / Obscene
+English,incel,What a incel,Hate Speech
+Hybrid,,This is disappointing ga undi,Neutral
+English,,I ate {food},Neutral
+Hybrid,bugger doola lanja,I hate bugger doola lanjas,Sexual / Obscene
+Hybrid,knobhead chetta na kodaka,You're such a knobhead chetta na kodaka,Abusive / Insult
+Telugu,munda,munda bastard,Hate Speech
+English,piss,Stop being a piss,Other
+Telugu,bosudi,This is bosudi shit,Sexual / Obscene
+Hybrid,balls erugu,You're such a balls erugu,Other
+Hybrid,dumbass geviri gaadida,dumbass geviri gaadida bastard,Abusive / Insult
+Hybrid,bully nee amma dengu,Fucking bully nee amma dengu,Harassment / Bullying
+Hybrid,stalker pichchi kukka,Stop being a stalker pichchi kukka,Harassment / Bullying
+Hybrid,bloody pooku,I hate bloody pookus,Other
+English,supremacist,You're such a supremacist,Hate Speech
+Hybrid,cunt chavu,cunt chavu bastard,Sexual / Obscene
+Telugu,gaadida,Stop being a gaadida,Abusive / Insult
+English,jerk,You are a jerk,Abusive / Insult
+English,xenophobe,You are a xenophobe,Hate Speech
+English,dick,You're such a dick,Sexual / Obscene
+English,troll,You're such a troll,Harassment / Bullying
+Hybrid,get lost chetta,You are a get lost chetta,Harassment / Bullying
+Telugu,moya,Stop being a moya,Harassment / Bullying
+Telugu,erugu,Fucking erugu,Other
+Hybrid,bollocks gudda,Stop being a bollocks gudda,Sexual / Obscene
+Hybrid,shut up doola lanja,What a shut up doola lanja,Harassment / Bullying
+Hybrid,bellend moya,bellend moya bastard,Abusive / Insult
+Hybrid,frig chetta,What a frig chetta,Other
+Telugu,bosudi,You are a bosudi,Sexual / Obscene
+Hybrid,get lost chavugottu,This is get lost chavugottu shit,Harassment / Bullying
+Hybrid,fool chetta,fool chetta bastard,Abusive / Insult
+Hybrid,balls erugu,Stop being a balls erugu,Other
+Hybrid,bugger pichchi kukka,bugger pichchi kukka loser,Other
+Telugu,lanja,lanja loser,Sexual / Obscene
+Hybrid,tosser chetta,Fucking tosser chetta,Other
+Hybrid,asshole doola lanja,You are a asshole doola lanja,Abusive / Insult
+Hybrid,harass modda,You are a harass modda,Harassment / Bullying
+English,fool,Stop being a fool,Abusive / Insult
+Hybrid,moron yedava,This is moron yedava shit,Abusive / Insult
+Telugu,kula gajji,Fucking kula gajji,Hate Speech
+English,plonker,plonker bastard,Other
+English,get lost,I hate get losts,Harassment / Bullying
+English,prick,What a prick,Sexual / Obscene
+English,,I'm worried about the book,Neutral
+Hybrid,ass bosudi,ass bosudi bastard,Sexual / Obscene
+Telugu,pichoda,You're such a pichoda,Abusive / Insult
+Telugu,,Nenu the phone gurinchi worry ayyanu,Neutral
+Telugu,kula gajji,This is kula gajji shit,Hate Speech
+Telugu,,Nenu {city} lo untunnanu,Neutral
+Hybrid,fuck off gudda dengu,Fucking fuck off gudda dengu,Harassment / Bullying
+Hybrid,transphobe doola lanja,transphobe doola lanja loser,Hate Speech
+Hybrid,karen munda,Go karen munda yourself,Hate Speech
+Hybrid,stupid cheththa vedhava,You are a stupid cheththa vedhava,Abusive / Insult
+Hybrid,misogynist vedhava,Go misogynist vedhava yourself,Hate Speech
+English,berk,This is berk shit,Other
+Hybrid,cock pooku,I hate cock pukus,Sexual / Obscene
+Hybrid,bloody picchi,This is bloody picchi shit,Other
+English,go to hell,Go go to hell yourself,Harassment / Bullying
+Hybrid,nazi kula gajji,nazi kula gajji loser,Hate Speech
+Telugu,chetta,Go chetta yourself,Other
+English,shut up,Fucking shut up,Harassment / Bullying
+English,dox,dox loser,Harassment / Bullying
+Telugu,,Nenu {thing} kosam excite ayyanu,Neutral
+Hybrid,racist chavugottu,You're such a racist chavugottu,Hate Speech
+English,incel,This is incel shit,Hate Speech
+English,,The book is about {topic},Neutral
+Hybrid,,I disagree with that {person},Neutral
+English,xenophobe,I hate xenophobes,Hate Speech
+Hybrid,frig gudda,I hate frig guddas,Other
+Hybrid,dox chavugottu,Go dox chavugottu yourself,Harassment / Bullying
+Hybrid,pillock vedhava,What a pillock vedhava,Other
+English,piss,I hate pisss,Other
+Telugu,munda,You are a munda,Hate Speech
+Hybrid,sexist doola lanja,sexist doola lanja loser,Hate Speech
+Hybrid,bellend erugu,bellend erugu bastard,Abusive / Insult
+Hybrid,bigot pichoda,You are a bigot pichoda,Hate Speech
+English,,I'm sad about the trip,Neutral
+Hybrid,homophobe munda,This is homophobe munda shit,Hate Speech
+Telugu,picchi,Go picchi yourself,Other
+Telugu,munda,What a munda,Hate Speech
+English,incel,incel bastard,Hate Speech
+Telugu,vedhava,You are a vedhava,Other
+Hybrid,berk picchi,I hate berk picchis,Other
+Hybrid,sod vedhava,Go sod vedhava yourself,Other
+English,stupid,You are a stupid,Abusive / Insult
+English,asshole,You're such a asshole,Abusive / Insult
+Hybrid,harass lanja munda,You're such a harass lanja munda,Harassment / Bullying
+Telugu,,Nenu the colleague tho oppukonu,Neutral
+Telugu,vedhava,What a vedhava,Other
+English,knob,knob bastard,Sexual / Obscene
+Hybrid,plonker picchi,You are a plonker picchi,Other
+Telugu,,Nenu the vacation kosam excite ayyanu,Neutral
+Hybrid,damn lanja munda,This is damn lanja munda shit,Other
+Telugu,geviri gaadida,You are a geviri gaadida,Abusive / Insult
+Telugu,doola lanja,doola lanja bastard,Hate Speech
+Telugu,chetta na kodaka,You are a chetta na kodaka,Abusive / Insult
+Hybrid,cock lanja,This is cock lanja shit,Sexual / Obscene
+Hybrid,loser donga na kodaka,loser donga na kodaka loser,Abusive / Insult
+Hybrid,anti-semite kula gajji,What a anti-semite kula gajji,Hate Speech
+Hybrid,,Fantastic job chesaru,Neutral
+Hybrid,troll gudda dengu,Go troll gudda dengu yourself,Harassment / Bullying
+Telugu,chetta vedhava,This is chetta vedhava shit,Abusive / Insult
+Telugu,gudda dengu,gudda dengu bastard,Harassment / Bullying
+English,knobhead,This is knobhead shit,Abusive / Insult
+English,frig,Go frig yourself,Other
+English,,I ate salad,Neutral
+Hybrid,hater lanja munda,You're such a hater lanja munda,Hate Speech
+English,motherfucker,motherfucker bastard,Sexual / Obscene
+English,hater,This is hater shit,Hate Speech
+Hybrid,berk gudda,You're such a berk gudda,Other
+Hybrid,pillock erugu,You're such a pillock erugu,Other
+Hybrid,sexist nee amma,Stop being a sexist nee amma,Hate Speech
+English,wanker,Go wanker yourself,Abusive / Insult
+English,dipshit,Stop being a dipshit,Abusive / Insult
+Telugu,vedhava,You're such a vedhava,Other
+Telugu,,Ivvala {day},Neutral
+Hybrid,hater lanja munda,I hate hater lanja mundas,Hate Speech
+Hybrid,shut up moya,Fucking shut up moya,Harassment / Bullying
+Hybrid,blowjob doola lanja,blowjob doola lanja loser,Sexual / Obscene
+Hybrid,wanker erugu,Stop being a wanker erugu,Other
+Telugu,picchi,You're such a picchi,Other
+Hybrid,shag dengu,I hate shag dengus,Sexual / Obscene
+English,bully,Stop being a bully,Harassment / Bullying
+Telugu,,Enti oka kashtamaina roju,Neutral
+Telugu,kula gajji,kula gajji loser,Hate Speech
+Hybrid,cunt guddha naku,You are a cunt guddha naku,Sexual / Obscene
+Hybrid,dick nee amma dengu,dick nee amma dengu bastard,Sexual / Obscene
+Telugu,erugu,erugu loser,Other
+Hybrid,fuck pedda salladhi,Stop being a fuck pedda salladhi,Sexual / Obscene
+Hybrid,die gudda dengu,I hate die gudda dengus,Harassment / Bullying
+English,bully,bully bastard,Harassment / Bullying
+Hybrid,bully nee amma dengu,This is bully nee amma dengu shit,Harassment / Bullying
+Hybrid,,The movie is romance type,Neutral
+Telugu,erugu,You're such a erugu,Other
+Telugu,cheththa vedhava,Go cheththa vedhava yourself,Abusive / Insult
+English,,I dislike {activity},Neutral
+Hybrid,fool chetta vedhava,You're such a fool chetta vedhava,Abusive / Insult
+Telugu,pooku,Stop being a pooku,Sexual / Obscene
+Telugu,erugu,Go erugu yourself,Other
+Hybrid,bugger dengu,Stop being a bugger dengu,Sexual / Obscene
+Hybrid,,The time is {time} o'clock,Neutral
+Hybrid,berk vedhava,You're such a berk vedhava,Other
+English,blowjob,I hate blowjobs,Sexual / Obscene
+Telugu,gudda,gudda bastard,Sexual / Obscene
+Hybrid,shut up nee amma dengu,shut up nee amma dengu bastard,Harassment / Bullying
+English,piss off,You're such a piss off,Harassment / Bullying
+Hybrid,threat chavu,What a threat chavu,Harassment / Bullying
+Hybrid,,The book is about {topic} subject,Neutral
+Hybrid,,The weather is {weather} now,Neutral
+English,ass,You're such a ass,Sexual / Obscene
+Hybrid,sod dengu,I hate sod dengus,Other
+English,shit,Go shit yourself,Sexual / Obscene
+Hybrid,shag cheththa vedhava,Go shag cheththa vedhava yourself,Sexual / Obscene
+Hybrid,homophobe doola lanja,Fucking homophobe doola lanja,Hate Speech
+Telugu,bosudi,What a bosudi,Sexual / Obscene
+Hybrid,get lost chavugottu,What a get lost chavugottu,Harassment / Bullying
+English,stupid,I hate stupids,Abusive / Insult
+Hybrid,dipshit bosudi,dipshit bosudi loser,Abusive / Insult
+English,hater,Fucking hater,Hate Speech
+Telugu,,Weather {weather},Neutral
+English,bloody,bloody bastard,Other
+English,blowjob,Go blowjob yourself,Sexual / Obscene
+Hybrid,dox nee amma dengu,You're such a dox nee amma dengu,Harassment / Bullying
+Hybrid,bollocks vedhava,bollocks vedhava loser,Other
+Hybrid,racist munda,Go racist munda yourself,Hate Speech
+Hybrid,supremacist pichchi kukka,Go supremacist pichchi kukka yourself,Hate Speech
+English,go to hell,What a go to hell,Harassment / Bullying
+English,prick,prick bastard,Abusive / Insult
+Hybrid,karen doola lanja,What a karen doola lanja,Hate Speech
+English,pillock,I hate pillocks,Other
+English,,Fantastic job,Neutral
+Hybrid,,That's awesome bey,Neutral
+Hybrid,,That's unfortunate bey,Neutral
+Hybrid,bellend pooku,What a bellend pooku,Sexual / Obscene
+English,kill yourself,kill yourself bastard,Harassment / Bullying
+Telugu,guddha naku,You're such a guddha naku,Sexual / Obscene
+Telugu,chavugottu,Stop being a chavugottu,Harassment / Bullying
+English,,I don't like {subject},Neutral
+English,cock,I hate cocks,Sexual / Obscene
+Telugu,chavugottu,Go chavugottu yourself,Harassment / Bullying
+English,threat,threat bastard,Harassment / Bullying
+Hybrid,,I'm worried about future the project,Neutral
+Hybrid,blowjob pooku,blowjob pooku loser,Sexual / Obscene
+Hybrid,harass moya,Go harass moya yourself,Harassment / Bullying
+Hybrid,homophobe munda,I hate homophobe mundas,Hate Speech
+English,fool,fool bastard,Abusive / Insult
+Telugu,doola lanja,What a doola lanja,Sexual / Obscene
+Telugu,lanja munda,Stop being a lanja munda,Hate Speech
+Hybrid,shag guddha naku,What a shag guddha naku,Sexual / Obscene
+English,bastard,bastard loser,Abusive / Insult
+Hybrid,shag doola lanja,What a shag doola lanja,Sexual / Obscene
+English,incel,incel loser,Hate Speech
+Hybrid,piss off chavu,Fucking piss off chavu,Harassment / Bullying
+Hybrid,bastard puku,bastard puku loser,Abusive / Insult
+Hybrid,,I'm happy about that {event},Neutral
+Hybrid,bellend pandi vedhava,This is bellend pandi vedhava shit,Abusive / Insult
+Hybrid,pussy gaadida,You're such a pussy gaadida,Sexual / Obscene
+English,,I appreciate my friend,Neutral
+English,plonker,I hate plonkers,Other
+Telugu,pichoda,Fucking pichoda,Abusive / Insult
+Hybrid,incel nee amma,incel nee amma bastard,Hate Speech
+Hybrid,cyberbully nee amma dengu,You are a cyberbully nee amma dengu,Harassment / Bullying
+English,stupid,You're such a stupid,Abusive / Insult
+Telugu,gudda dengu,Fucking gudda dengu,Harassment / Bullying
+Hybrid,shit bosudi,This is shit bosudi shit,Sexual / Obscene
+Hybrid,numbskull picchi,You're such a numbskull picchi,Abusive / Insult
+Hybrid,arse chetta,You are a arse chetta,Other
+Hybrid,bigot nee amma,I hate bigot nee ammas,Hate Speech
+Hybrid,crap chetta,Fucking crap chetta,Other
+Telugu,erri pooka,Go erri pooka yourself,Sexual / Obscene
+English,plonker,This is plonker shit,Other
+Hybrid,bloody picchi,Fucking bloody picchi,Other
+Hybrid,,I don't like this {subject},Neutral
+Hybrid,hell dongana kodaka,You are a hell dongana kodaka,Other
+English,piss,Go piss yourself,Other
+English,go to hell,I hate go to hells,Harassment / Bullying
+English,,I appreciate {person},Neutral
+English,racist,racist loser,Hate Speech
+Telugu,pooku,You're such a pooku,Sexual / Obscene
+Hybrid,fuck off gudda dengu,You're such a fuck off gudda dengu,Harassment / Bullying
+Hybrid,,I went to the {place} today,Neutral
+English,bugger,You are a bugger,Other
+Hybrid,anti-semite pichchi kukka,You're such a anti-semite pichchi kukka,Hate Speech
+Hybrid,go to hell chavu,Go go to hell chavu yourself,Harassment / Bullying
+English,cyberbully,You are a cyberbully,Harassment / Bullying
+Telugu,bosudi,Stop being a bosudi,Sexual / Obscene
+Hybrid,piss off nee amma dengu,You are a piss off nee amma dengu,Harassment / Bullying
+Hybrid,,I'm sad about the the update,Neutral
+Telugu,pandi vedhava,pandi vedhava loser,Abusive / Insult
+Telugu,moya,Fucking moya,Harassment / Bullying
+Hybrid,tosser erugu,You are a tosser erugu,Other
+Hybrid,dick lanja,dick lanja loser,Sexual / Obscene
+Telugu,,Nenu dancing enjoy chestunnanu,Neutral
+Hybrid,cock lanja munda,Stop being a cock lanja munda,Sexual / Obscene
+Telugu,nee amma dengu,You are a nee amma dengu,Harassment / Bullying
+Hybrid,,I'm sad about the {event},Neutral
+Hybrid,transphobe modda,Stop being a transphobe modda,Hate Speech
+Telugu,vedhava,This is vedhava shit,Other
+Telugu,kula gajji,Go kula gajji yourself,Hate Speech
+Telugu,picchi,I hate picchis,Other
+English,cock,cock bastard,Sexual / Obscene
+English,bully,Go bully yourself,Harassment / Bullying
+Telugu,chavugottu,chavugottu loser,Harassment / Bullying
+Hybrid,homophobe kula gajji,You are a homophobe kula gajji,Hate Speech
+Hybrid,fool erugu,You're such a fool erugu,Abusive / Insult
+Hybrid,misogynist doola lanja,This is misogynist doola lanja shit,Hate Speech
+Telugu,puku,Stop being a puku,Sexual / Obscene
+English,sod,You're such a sod,Other
+English,,This is great,Neutral
+Hybrid,,The weather is snowy now,Neutral
+Hybrid,bellend gaadida,You're such a bellend gaadida,Abusive / Insult
+Hybrid,piss geviri gaadida,I hate piss geviri gaadidas,Other
+Hybrid,,This makes me frown sometimes,Neutral
+Hybrid,douchebag chetta vedhava,Fucking douchebag chetta vedhava,Abusive / Insult
+English,incel,Go incel yourself,Hate Speech
+English,knob,You are a knob,Sexual / Obscene
+Telugu,dongana kodaka,dongana kodaka bastard,Abusive / Insult
+Hybrid,loser guddha naku,You're such a loser guddha naku,Abusive / Insult
+English,die,Go die yourself,Harassment / Bullying
+Hybrid,stupid doola lanja,stupid doola lanja loser,Abusive / Insult
+Telugu,chetta na kodaka,I hate chetta na kodakas,Abusive / Insult
+English,git,This is git shit,Other
+Hybrid,bully gudda dengu,You're such a bully gudda dengu,Harassment / Bullying
+Hybrid,hater doola lanja,I hate hater doola lanjas,Hate Speech
+Hybrid,hell gudda,hell gudda bastard,Other
+English,twat,Stop being a twat,Sexual / Obscene
+Hybrid,numpty doola lanja,What a numpty doola lanja,Other
+Hybrid,asshole dongana kodaka,asshole dongana kodaka bastard,Abusive / Insult
+English,dox,Fucking dox,Harassment / Bullying
+Hybrid,idiot picchi,Stop being a idiot picchi,Abusive / Insult
+English,prick,Fucking prick,Sexual / Obscene
+Telugu,kula gajji,kula gajji bastard,Hate Speech
+English,,I'm excited for {thing},Neutral
+Telugu,vedhava,I hate vedhavas,Other
+English, knob,You are a  knob,Sexual / Obscene
+Telugu,nee amma dengu,Go nee amma dengu yourself,Sexual / Obscene
+English,go to hell,You are a go to hell,Harassment / Bullying
+Hybrid, knob lanja,You are a  knob lanja,Sexual / Obscene
+English,karen,karen bastard,Hate Speech
+Hybrid,bloody erugu,Stop being a bloody erugu,Other
+Telugu,moya,You're such a moya,Harassment / Bullying
+English,twat,You are a twat,Abusive / Insult
+Telugu,gudda dengu,I hate gudda dengus,Harassment / Bullying
+Telugu,cheththa vedhava,Fucking cheththa vedhava,Abusive / Insult
+Hybrid,hell nee amma dengu,This is hell nee amma dengu shit,Other
+Hybrid,sod chavugottu,sod chavugottu bastard,Other
+English,kill yourself,Fucking kill yourself,Harassment / Bullying
+Hybrid,hater munda,hater munda bastard,Hate Speech
+Hybrid, knob doola lanja,You are a  knob doola lanja,Sexual / Obscene
+Hybrid,fuck off nee amma dengu,What a fuck off nee amma dengu,Harassment / Bullying
+Hybrid,numpty vedava,This is numpty vedava shit,Other
+Telugu,doola lanja,I hate doola lanjas,Hate Speech
+English,wank,wank bastard,Sexual / Obscene
+Hybrid,hater nee amma,Fucking hater nee amma,Hate Speech
+Hybrid,muppet erugu,What a muppet erugu,Other
+Hybrid,,This makes me smile always,Neutral
+English,supremacist,Stop being a supremacist,Hate Speech
+Telugu,--,Nenu {event} gurinchi santosham ga unnanu,Neutral
+Hybrid,islamophobe picchi,islamophobe picchi bastard,Hate Speech
+Hybrid,knobhead donga na kodaka,Fucking knobhead donga na kodaka,Abusive / Insult
+Hybrid,piss erugu,piss erugu bastard,Other
+Telugu,yedava,You're such a yedava,Abusive / Insult
+English,,I enjoy {activity},Neutral
+English,die,You are a die,Harassment / Bullying
+Telugu,doola lanja,You're such a doola lanja,Sexual / Obscene
+Telugu,,Nenu {subject} istapadadam ledu,Neutral
+Telugu,pandi vedhava,Fucking pandi vedhava,Abusive / Insult
+Telugu,vedava,Fucking vedava,Abusive / Insult
+Hybrid,shut up chavu,shut up chavu loser,Harassment / Bullying
+Telugu,bosudi,I hate bosudis,Sexual / Obscene
+English,bloody,Go bloody yourself,Other
+Hybrid,arse picchi,arse picchi loser,Other
+Telugu,chetta na kodaka,What a chetta na kodaka,Abusive / Insult
+Hybrid,damn chetta,This is damn chetta shit,Other
+English,sod,This is sod shit,Other
+Hybrid,go to hell moya,go to hell moya bastard,Harassment / Bullying
+English,sexist,Go sexist yourself,Hate Speech
+English,cyberbully,What a cyberbully,Harassment / Bullying
+English,nazi,Stop being a nazi,Hate Speech
+Hybrid,motherfucker pedda salladhi,I hate motherfucker pedda salladhis,Sexual / Obscene
+Hybrid,motherfucker modda,Stop being a motherfucker modda,Sexual / Obscene
+Telugu,munda,I hate mundas,Hate Speech
+English,crap,Go crap yourself,Other
+Hybrid,die moya,Stop being a die moya,Harassment / Bullying
+Hybrid,,Nenu {person} ni appreciate chestunnanu,Neutral
+English,pussy,You're such a pussy,Sexual / Obscene
+Hybrid,,The movie is horror type,Neutral
+English,transphobe,Fucking transphobe,Hate Speech
+Hybrid,go to hell lanja munda,What a go to hell lanja munda,Harassment / Bullying
+Telugu,pandi vedhava,pandi vedhava bastard,Abusive / Insult
+English,bollocks,bollocks bastard,Sexual / Obscene
+Hybrid,piss off chavu,You are a piss off chavu,Harassment / Bullying
+Telugu,addagadidha,addagadidha bastard,Abusive / Insult
+Hybrid,wanker chavugottu,wanker chavugottu bastard,Abusive / Insult
+Telugu,addagadidha,You're such a addagadidha,Abusive / Insult
+Telugu,,Nenu {thing} gurinchi worry ayyanu,Neutral
+Telugu,nee amma dengu,Fucking nee amma dengu,Harassment / Bullying
+Telugu,pichchi kukka,You are a pichchi kukka,Hate Speech
+Hybrid,cunt pedda salladhi,cunt pedda salladhi loser,Sexual / Obscene
+English,shag,shag bastard,Sexual / Obscene
+Hybrid,threat chavugottu,You're such a threat chavugottu,Harassment / Bullying
+Hybrid,wanker vedhava,I hate wanker vedhavas,Other
+Hybrid,nazi kula gajji,I hate nazi kula gajjis,Hate Speech
+Hybrid,,The book is about literature subject,Neutral
+Hybrid,knobhead nee amma dengu,knobhead nee amma dengu bastard,Abusive / Insult
+Hybrid,bellend guddha naku,I hate bellend guddha nakus,Abusive / Insult
+Hybrid,loser die gudda dengu,You are a loser die gudda dengu,Harassment / Bullying
+Hybrid,misogynist kula gajji,Fucking misogynist kula gajji,Hate Speech
+Hybrid,kill yourself chavugottu,Fucking kill yourself chavugottu,Harassment / Bullying
+Hybrid,cock nee amma dengu,I hate cock nee amma dengus,Sexual / Obscene
+English,stalker,I hate stalkers,Harassment / Bullying
+Hybrid,nazi lanja munda,You are a nazi lanja munda,Hate Speech
+Hybrid,douchebag dongana kodaka,This is douchebag dongana kodaka shit,Abusive / Insult
+Hybrid,idiot gaadida,Go idiot gaadida yourself,Abusive / Insult
+English,,I disagree with {person},Neutral
+English,tosser,You are a tosser,Other
+English,islamophobe,islamophobe bastard,Hate Speech
+English,misogynist,misogynist bastard,Hate Speech
+Telugu,erri pooka,erri pooka loser,Sexual / Obscene
+Hybrid,shag bosudi,Go shag bosudi yourself,Sexual / Obscene
+Hybrid,berk picchi,Go berk picchi yourself,Other
+Telugu,vedava,What a vedava,Abusive / Insult
+Telugu,,Nenu {person} tho oppukonu,Neutral
+Hybrid,piss chetta,piss chetta bastard,Other
+Hybrid,douchebag donga na kodaka,You are a douchebag donga na kodaka,Abusive / Insult
+English,fuck off,fuck off bastard,Harassment / Bullying
+English,,Today is Friday,Neutral
+Telugu,lanja munda,You're such a lanja munda,Hate Speech
+English,frig,frig bastard,Other
+English,shut up,You are a shut up,Harassment / Bullying
+Hybrid,hell pooku,You're such a hell pooku,Other
+English,,Poor performance,Neutral
+Telugu,,Idi chala bagundi,Neutral
+English,blowjob,You're such a blowjob,Sexual / Obscene
+Hybrid,bellend nee amma dengu,Go bellend nee amma dengu yourself,Abusive / Insult
+Telugu,moya,You are a moya,Harassment / Bullying
+Hybrid,motherfucker doola lanja,motherfucker doola lanja loser,Sexual / Obscene
+Hybrid,twat vedava,This is twat vedava shit,Abusive / Insult
+Hybrid,frig chetta,frig chetta loser,Other
+English,karen,karen loser,Hate Speech
+Hybrid,bollocks bosudi,What a bollocks bosudi,Sexual / Obscene
+Telugu,erri pooka,You're such a erri pooka,Sexual / Obscene
+Telugu,pandi vedhava,You are a pandi vedhava,Abusive / Insult
+Telugu,geviri gaadida,This is geviri gaadida shit,Abusive / Insult
+Hybrid,,The book is about science subject,Neutral
+English,,I live in Mumbai,Neutral
+Hybrid,piss off gudda dengu,What a piss off gudda dengu,Harassment / Bullying
+Telugu,doola lanja,You're such a doola lanja,Hate Speech
+Telugu,pichchi kukka,This is pichchi kukka shit,Hate Speech
+English,,What a wonderful day,Neutral
+Telugu,moya,This is moya shit,Harassment / Bullying
+Hybrid,tosser picchi,tosser picchi bastard,Other
+Hybrid,plonker chetta,You're such a plonker chetta,Other
+Hybrid,bigot lanja munda,I hate bigot lanja mundas,Hate Speech
+English,kill yourself,What a kill yourself,Harassment / Bullying
+Hybrid,idiot gaadida,idiot gaadida bastard,Abusive / Insult
+English,stupid,stupid loser,Abusive / Insult
+English,troll,What a troll,Harassment / Bullying
+Hybrid,prick modda,prick modda bastard,Sexual / Obscene
+English,hater,Stop being a hater,Hate Speech
+Hybrid,supremacist vedhava,Fucking supremacist vedhava,Hate Speech
+English,sexist,You're such a sexist,Hate Speech
+Hybrid,homophobe doola lanja,This is homophobe doola lanja shit,Hate Speech
+Telugu,lanja munda,Fucking lanja munda,Hate Speech
+Telugu,munda,munda loser,Hate Speech
+Hybrid,islamophobe erugu,Stop being a islamophobe erugu,Hate Speech
+English,piss,What a piss,Other
+English,,This is disappointing,Neutral
+English,idiot,What a idiot,Abusive / Insult
+English,dumbass,dumbass loser,Abusive / Insult
+Telugu,picchi,picchi bastard,Other
+Hybrid,bigot doola lanja,What a bigot doola lanja,Hate Speech
+English,fool,I hate fools,Abusive / Insult
+Hybrid,karen kula gajji,karen kula gajji bastard,Hate Speech
+Hybrid,,I ate soup for lunch,Neutral
+Hybrid,go to hell nee amma dengu,I hate go to hell nee amma dengus,Harassment / Bullying
+Hybrid,stupid pichoda,stupid pichoda bastard,Abusive / Insult
+Hybrid,,Poor performance idi,Neutral
+Hybrid,,I enjoy this {activity} chala,Neutral
+Telugu,,Nenu {person} ni appreciate chestunnanu,Neutral
+English,plonker,Stop being a plonker,Other
+English,incel,You're such a incel,Hate Speech
+Hybrid,fuck bosudi,I hate fuck bosudis,Sexual / Obscene
+Hybrid,cock pooku,Go cock pooku yourself,Sexual / Obscene
+English,cyberbully,Stop being a cyberbully,Harassment / Bullying
+Hybrid,asshole gaadida,You are a asshole gaadida,Abusive / Insult
+Telugu,chetta na kodaka,Stop being a chetta na kodaka,Abusive / Insult
+English,ass,This is ass shit,Sexual / Obscene
+Telugu,moya,What a moya,Harassment / Bullying
+English,wanker,What a wanker,Abusive / Insult
+Telugu,guddha naku,guddha naku bastard,Sexual / Obscene
+Hybrid,fucker gudda,fucker gudda bastard,Sexual / Obscene
+English,shit,This is shit shit,Sexual / Obscene
+Hybrid,piss chetta,This is piss chetta shit,Other
+Hybrid,supremacist chetta,What a supremacist chetta,Hate Speech
+Hybrid,tosser erugu,Stop being a tosser erugu,Other
+English,git,Fucking git,Other
+Telugu,gaadida,Fucking gaadida,Abusive / Insult
+Hybrid,fuck off moya,fuck off moya bastard,Harassment / Bullying
+Hybrid,wanker chetta,This is wanker chetta shit,Other
+Hybrid,anti-semite doola lanja,Stop being a anti-semite doola lanja,Hate Speech
+Telugu,erugu,erugu bastard,Other
+Hybrid,numpty vedhava,numpty vedhava bastard,Other
+English,berk,You're such a berk,Other
+Hybrid,anti-semite lanja munda,Stop being a anti-semite lanja munda,Hate Speech
+Hybrid,,I live in {city} city,Neutral
+Hybrid,crap chetta,This is crap chetta shit,Other
+English,bellend,bellend loser,Abusive / Insult
+Telugu,,Enti oka manchidi roju,Neutral
+Hybrid,piss moya,You're such a piss moya,Other
+English,wanker,wanker loser,Abusive / Insult
+Hybrid,go to hell chavugottu,go to hell chavugottu bastard,Harassment / Bullying
+English,nazi,You're such a nazi,Hate Speech
+Hybrid,tosser moya,I hate tosser moyas,Other
+Hybrid,supremacist doola lanja,I hate supremacist doola lanjas,Hate Speech
+English,prick,This is prick shit,Abusive / Insult
+English,bugger,What a bugger,Other
+English,imbecile,You are a imbecile,Abusive / Insult
+Hybrid,dick puku,What a dick puku,Sexual / Obscene
+English,piss off,Go piss off yourself,Harassment / Bullying
+Telugu,kula gajji,What a kula gajji,Hate Speech
+Telugu,chavu,chavu bastard,Harassment / Bullying
+English,threat,threat loser,Harassment / Bullying
+Telugu,yedava,yedava bastard,Abusive / Insult
+Telugu,pandi vedhava,Go pandi vedhava yourself,Abusive / Insult
+Telugu,nee amma dengu,You're such a nee amma dengu,Sexual / Obscene
+Hybrid,,The movie is thriller type,Neutral
+Hybrid,islamophobe kula gajji,What a islamophobe kula gajji,Hate Speech
+Hybrid,sod bosudi,sod bosudi loser,Sexual / Obscene
+Hybrid,wank pooku,Stop being a wank pooku,Sexual / Obscene
+Hybrid,asshole vedhava,asshole vedhava loser,Abusive / Insult
+Hybrid,idiot vedava,This is idiot vedava shit,Abusive / Insult
+Telugu,nee amma dengu,nee amma dengu loser,Harassment / Bullying
+Hybrid,numbskull pichchi,Fucking numbskull pichchi,Abusive / Insult
+English,misogynist,I hate misogynists,Hate Speech
+Hybrid,tosser vedhava,Stop being a tosser vedhava,Other
+Telugu,doola lanja,Fucking doola lanja,Hate Speech
+Hybrid,supremacist munda,Stop being a supremacist munda,Hate Speech
+English,bloody,I hate bloodys,Other
+Telugu,gudda dengu,You are a gudda dengu,Harassment / Bullying
+Hybrid,,I went to the the mall today,Neutral
+English,homophobe,homophobe loser,Hate Speech
+English,wanker,You are a wanker,Other
+English,troll,This is troll shit,Harassment / Bullying
+Hybrid,misogynist munda,What a misogynist munda,Hate Speech
+Telugu,,Nenu cycling dislike chestunnanu,Neutral
+Hybrid,arse erugu,You are a arse erugu,Other
+English,piss off,Fucking piss off,Harassment / Bullying
+Telugu,puku,Go puku yourself,Sexual / Obscene
+English,xenophobe,xenophobe loser,Hate Speech
+Hybrid,cunt dengu,What a cunt dengu,Sexual / Obscene
+Telugu,nee amma dengu,You are a nee amma dengu,Sexual / Obscene
+Hybrid,misogynist nee amma,misogynist nee amma bastard,Hate Speech
+Hybrid,blowjob gudda,What a blowjob gudda,Sexual / Obscene
+English,die,You're such a die,Harassment / Bullying
+Hybrid,xenophobe dongana kodaka,You're such a xenophobe dongana kodaka,Hate Speech
+Hybrid,twat pichchi kukka,You are a twat pichchi kukka,Abusive / Insult
+Hybrid,jerk vedava,You're such a jerk vedava,Abusive / Insult
+Hybrid,incel pichchi kukka,Stop being a incel pichchi kukka,Hate Speech
+Hybrid,incel munda,What a incel munda,Hate Speech
+Hybrid,balls chetta,I hate balls chettas,Other
+Hybrid,go to hell gudda dengu,Stop being a go to hell gudda dengu,Harassment / Bullying
+English,,I'm happy about {event},Neutral
+Hybrid,sexist munda,I hate sexist mundas,Hate Speech
+Hybrid,hell erugu,Fucking hell erugu,Other
+Hybrid,bloody erugu,This is bloody erugu shit,Other
+Telugu,chetta,Fucking chetta,Other
+Hybrid,hell doola lanja,What a hell doola lanja,Other
+Telugu,,Nenu sports istapadadam ledu,Neutral
+Hybrid,bloody dengu,I hate bloody dengus,Other
+Telugu,lanja munda,lanja munda bastard,Hate Speech
+Hybrid,bugger nee amma dengu,bugger nee amma dengu loser,Sexual / Obscene
+Hybrid,dox modda,This is dox modda shit,Harassment / Bullying
+Hybrid,bugger vedhava,bugger vedhava loser,Other
+English,shithead,shithead bastard,Abusive / Insult
+Telugu,kula gajji,Stop being a kula gajji,Hate Speech
+Hybrid,knob gudda,You are a knob gudda,Sexual / Obscene
+English,sod,sod loser,Other
+Hybrid,twat guddha naku,twat guddha naku bastard,Sexual / Obscene
+Hybrid,prick erugu,Fucking prick erugu,Abusive / Insult
+English,dipshit,dipshit loser,Abusive / Insult
+Hybrid,shut up chavu,Stop being a shut up chavu,Harassment / Bullying
+Hybrid,transphobe nee amma,Go transphobe nee amma yourself,Hate Speech
+Hybrid,sexist munda,Fucking sexist munda,Hate Speech
+English,supremacist,What a supremacist,Hate Speech
+Telugu,doola lanja,You are a doola lanja,Sexual / Obscene
+Telugu,,Nenu {activity} dislike chestunnanu,Neutral
+English,crap,You're such a crap,Other
+Hybrid,bellend erri pooka,Fucking bellend erri pooka,Sexual / Obscene
+Hybrid,bastard kula gajji,Stop being a bastard kula gajji,Abusive / Insult
+Hybrid,sod chetta na kodaka,You're such a sod chetta na kodaka,Other
+Telugu,erugu,erugu bastard,Abusive / Insult
+Hybrid,xenophobe puku,This is xenophobe puku shit,Hate Speech
+English,berk,berk loser,Other
+English,dick,I hate dicks,Sexual / Obscene
+Hybrid,supremacist lanja munda,supremacist lanja munda bastard,Hate Speech
+Hybrid,dumbass donga na kodaka,Fucking dumbass donga na kodaka,Abusive / Insult
+Hybrid,cock gudda,You are a cock gudda,Sexual / Obscene
+Telugu,chetta na kodaka,Fucking chetta na kodaka,Abusive / Insult
+English,nazi,nazi loser,Hate Speech
+English,transphobe,I hate transphobes,Hate Speech
+Hybrid,frig chetta,frig chetta bastard,Other
+English,,Today is a weekend day,Neutral
+Hybrid,shut up gudda dengu,shut up gudda dengu loser,Harassment / Bullying
+English,bully,You are a bully,Harassment / Bullying
+English,bigot,What a bigot,Hate Speech
+Telugu,,Nenu {event} gurinchi santosham ga unnanu,Neutral
+Hybrid,bugger chetta,You are a bugger chetta,Other
+English,sod,You are a sod,Other
+Hybrid,hell picchi,hell picchi loser,Other
+English,tosser,Fucking tosser,Other
+Hybrid,racist doola lanja,Stop being a racist doola lanja,Hate Speech
+English,,The weather is {weather},Neutral
+Hybrid,sexist pichchi kukka,Go sexist pichchi kukka yourself,Hate Speech
+English,numpty,Go numpty yourself,Other
+Hybrid,sod lanja,You are a sod lanja,Sexual / Obscene
+Telugu,doola lanja,doola lanja bastard,Sexual / Obscene
+English,bigot,Go bigot yourself,Hate Speech
+Hybrid,bollocks doola lanja,Go bollocks doola lanja yourself,Sexual / Obscene
+English,piss,This is piss shit,Other
+Hybrid,homophobe vedhava,Stop being a homophobe vedhava,Hate Speech
+English,,This makes me smile,Neutral
+Hybrid,dick pedda salladhi,This is dick pedda salladhi shit,Sexual / Obscene
+Telugu,,Nenu oka cow chusanu,Neutral
+Telugu,puku,I hate pukus,Sexual / Obscene
+Hybrid,piss picchi,This is piss picchi shit,Other
+Hybrid,bloody chetta,Go bloody chetta yourself,Other
+Telugu,pedda salladhi,You are a pedda salladhi,Sexual / Obscene
+English,,I live in {city},Neutral
+Telugu,moya,I hate moyas,Harassment / Bullying
+Telugu,chetta,This is chetta shit,Other
+Hybrid,dox nee amma dengu,You are a dox nee amma dengu,Harassment / Bullying
+Hybrid,transphobe munda,This is transphobe munda shit,Hate Speech
+Telugu,gaadida,This is gaadida shit,Abusive / Insult
+English,numbskull,I hate numbskulls,Abusive / Insult
+Telugu,picchi,This is picchi shit,Other
+Hybrid,supremacist kula gajji,Stop being a supremacist kula gajji,Hate Speech
+Hybrid,bollocks pedda salladhi,bollocks pedda salladhi bastard,Sexual / Obscene
+Hybrid,sod vedhava,You are a sod vedhava,Other
+Hybrid,plonker picchi,What a plonker picchi,Other
+English,,I saw a {animal},Neutral
+Hybrid,fuck picchi,You're such a fuck picchi,Sexual / Obscene
+Hybrid,kill yourself doola lanja,This is kill yourself doola lanja shit,Harassment / Bullying
+Hybrid,incel erugu,Stop being a incel erugu,Hate Speech
+Hybrid,shit gudda,I hate shit guddas,Sexual / Obscene
+English,stalker,You are a stalker,Harassment / Bullying
+Hybrid,dox chetta,I hate dox chettas,Harassment / Bullying
+Telugu,lanja munda,What a lanja munda,Hate Speech
+Hybrid,motherfucker bosudi,I hate motherfucker bosudis,Sexual / Obscene
+Hybrid,sod lanja,I hate sod lanjas,Sexual / Obscene
+Hybrid,pussy erri pooka,pussy erri pooka bastard,Sexual / Obscene
+English,cock,You're such a cock,Sexual / Obscene
+Telugu,erugu,Stop being a erugu,Other
+Hybrid,karen moya,What a karen moya,Hate Speech
+Telugu,,Idi nannu chirunavvu chestundi,Neutral
+English,bollocks,You're such a bollocks,Sexual / Obscene
+Telugu,moya,moya loser,Harassment / Bullying
+English,,What a tough day,Neutral
+English,,The {object} is {color},Neutral
+Hybrid,fuck modda,Fucking fuck modda,Sexual / Obscene
+Telugu,gudda dengu,Go gudda dengu yourself,Harassment / Bullying
+English,anti-semite,You are a anti-semite,Hate Speech
+Telugu,vedhava,vedhava bastard,Other
+Hybrid,hater chavugottu,Go hater chavugottu yourself,Hate Speech
+Telugu,pandi vedhava,What a pandi vedhava,Abusive / Insult
+Hybrid,fuck pooku,You are a fuck pooku,Sexual / Obscene
+English,racist,Stop being a racist,Hate Speech
+Hybrid,,This is great ra,Neutral
+Telugu,nee amma dengu,Go nee amma dengu yourself,Harassment / Bullying
+English,,The book is about math,Neutral
+Hybrid,idiot erugu,idiot erugu bastard,Abusive / Insult
+Hybrid,xenophobe kula gajji,This is xenophobe kula gajji shit,Hate Speech
+Hybrid,fool pichoda,I hate fool pichodas,Abusive / Insult
+Hybrid,incel doola lanja,incel doola lanja loser,Hate Speech
+Telugu,picchi,Fucking picchi,Abusive / Insult
+Hybrid,die munda,Stop being a die munda,Harassment / Bullying
+Hybrid,douchebag addagadidha,douchebag addagadidha loser,Abusive / Insult
+Telugu,dengu,This is dengu shit,Sexual / Obscene
+English,harass,I hate harasss,Harassment / Bullying
+Hybrid,prick modda,Fucking prick modda,Sexual / Obscene
+English,bastard,Stop being a bastard,Abusive / Insult
+English,sod,Go sod yourself,Other
+Hybrid,threat lanja munda,What a threat lanja munda,Harassment / Bullying
+Hybrid,knob picchi,knob picchi bastard,Sexual / Obscene

@@ -1,0 +1,109 @@
+{
+  "accuracy": 0.625,
+  "precision": 0.47017045454545453,
+  "recall": 0.625,
+  "f1": 0.5087535014005602,
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      6,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ]
+  ],
+  "roc_auc": 0.976923076923077,
+  "class_distribution": {
+    "Abusive / Insult": 2,
+    "Harassment / Bullying": 3,
+    "Hate Speech": 1,
+    "Neutral": 6,
+    "Other": 2,
+    "Sexual / Obscene": 2
+  },
+  "top_features": {
+    "Abusive / Insult": [
+      "puka",
+      "ashole",
+      "so",
+      "implementation",
+      "playing"
+    ],
+    "Harassment / Bullying": [
+      "mingey",
+      "so",
+      "implementation",
+      "playing",
+      "content"
+    ],
+    "Hate Speech": [
+      "mingey",
+      "so",
+      "implementation",
+      "perfect",
+      "gamepley"
+    ],
+    "Neutral": [
+      "nice",
+      "good",
+      "playing",
+      "content",
+      "perfect"
+    ],
+    "Other": [
+      "one",
+      "video",
+      "nice",
+      "so",
+      "implementation"
+    ],
+    "Sexual / Obscene": [
+      "these",
+      "so",
+      "implementation",
+      "playing",
+      "content"
+    ]
+  }
+}
